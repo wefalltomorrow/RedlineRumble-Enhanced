@@ -17,7 +17,9 @@ jobs:
         with:
           python-version: '3.11'
       - name: Check Python syntax
-        run: python -m compileall -q source tests
+        run: python -m compileall -q source tests tools
+      - name: Audit tooling regression tests
+        run: python -m unittest discover -s tests -p 'test_audit_game_dir.py' -v
       - name: Camera state regression tests
         run: python tests/test_redline_v36.py
       - name: Validate traffic hooks and camera bytecode
