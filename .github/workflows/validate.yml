@@ -1,0 +1,35 @@
+name: Validate patch scripts
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  static:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check Python syntax
+        run: python -m compileall -q source tests
+      - name: Camera state regression tests
+        run: python tests/test_redline_v36.py
+      - name: Validate traffic hooks and camera bytecode
+        run: |
+          PYTHONPATH=source python - <<'PY'
+          import build_redline_v35 as traffic
+          import build_redline_v36 as camera
+
+          for hook in (traffic.init_hook(), traffic.ongoing_hook(), traffic.oncoming_hook()):
+              assert traffic.decode(hook, allow_end=True)
+          report = camera.validate_flow(camera.assemble()[0])
+          assert report["all_jumps_instruction_aligned"]
+          assert report["return_stack_empty"]
+          print("Traffic bytecode and camera control-flow checks passed")
+          PY

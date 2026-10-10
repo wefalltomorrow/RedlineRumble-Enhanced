@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Redline Rumble original game/runtime assets and local generated builds
+*.dir
+*.x32
+*.dll
+*.exe
+*.7z
+*.zip
+source/historical/
+source/RedlineRumble_4K_*/
+source/RedlineRumble_v*_validation.json
