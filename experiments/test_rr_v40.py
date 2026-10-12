@@ -27,7 +27,7 @@ class PoolTests(unittest.TestCase):
                 self.assertEqual(sum(x['op'] == 0x55 for x in ins), 1)
                 self.assertEqual(calls.count(153), 1) # clone only on < 32 branch
                 self.assertEqual(calls.count(316), 1) # addChild only on < 32
-                self.assertEqual(calls.count(65), 2)  # old model + source lookup
+                self.assertEqual(calls.count(65), 6)  # 1 oldest + 4 source-property reads + 1 creation path
                 self.assertEqual(calls.count(432), 1) # only list.deleteAt(1)
                 self.assertEqual(calls.count(78), 2)  # list.add, either path
                 self.assertNotIn(397, calls)  # W.deleteModel is absent
