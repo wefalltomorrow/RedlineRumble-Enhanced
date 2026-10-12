@@ -1,0 +1,20 @@
+name: Validate v40 visual pool
+
+on:
+  push:
+    branches: [experiment/v40-reusable-rear-models]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  source-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile scripts
+        run: python -m compileall -q experiments source
+      - name: Check bytecode hook and pool operations
+        run: python experiments/test_rr_v40.py
