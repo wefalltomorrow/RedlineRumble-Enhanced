@@ -1,0 +1,1939 @@
+{
+  "format": "redline-input-profiles-v1",
+  "inputs": {
+    "v28": {
+      "recovered_archive": "015-RedlineRumble_4K_v28_CameraFix.zip",
+      "files": {
+        "Dirapi.dll": {
+          "size": 1499136,
+          "sha256": "cc79cec2409170223bee77272c39caf25277cb40f999070235c8ca8e5011f83b"
+        },
+        "FixFullscreen_v18.ps1": {
+          "size": 9013,
+          "sha256": "2ce824860dfdfb30ba0ea57008ed9f584f0ddeea7c64b42c4bddd35aa7f07adf"
+        },
+        "Iml32.dll": {
+          "size": 614400,
+          "sha256": "0ae5288fb41d9e58ad48600e6abe147bb7fe8ae850a490a3ec05fab9b9bd17e4"
+        },
+        "Launch Redline Rumble 4K 60FPS AA.cmd": {
+          "size": 583,
+          "sha256": "1cd8f1f929ce84fb5c40b492bb3c6e54033bdadef54516dd53de03807e8632a7"
+        },
+        "Proj.dll": {
+          "size": 151552,
+          "sha256": "43dd597efcfad738bfaf1275adf8c41480118910cc88f78b5e857c8b39d4b655"
+        },
+        "Projector.exe": {
+          "size": 81920,
+          "sha256": "1b0a490e014044125febf056bbc9fab0b73f27ac6de193acf4cd6d4100eac549"
+        },
+        "Projector.ini": {
+          "size": 15702,
+          "sha256": "4376978f546c321f857a53c7241225683f811c672acdea764b5f475ee411e518"
+        },
+        "README v28.txt": {
+          "size": 520,
+          "sha256": "483927fa488ca921d5d6f48a8952aedabd5aa95ab4727de097fdc5b3c7da7aa6"
+        },
+        "Setup dgVoodoo2 2.87.5.ps1": {
+          "size": 1297,
+          "sha256": "12fa4c0da6d5f164f915b4964ded4991db5fdc6a538e7ffb24e8ab97a7c5154f"
+        },
+        "Xtras/3DAuth.x32": {
+          "size": 81920,
+          "sha256": "e7fd471fe67e17b68eb66fb3c107a577ee064d87073145b2802db998af4c7aba"
+        },
+        "Xtras/AVI Agent.x32": {
+          "size": 24576,
+          "sha256": "ef406c614cff0d34b3199150904adefce6984ed2b9e32ea9ec884817b103eefb"
+        },
+        "Xtras/ActXPriv.x32": {
+          "size": 204800,
+          "sha256": "da246aee1879c80f5ee287d9a435321394d9d7e9d5ea5dac3de61302d54a6ab1"
+        },
+        "Xtras/ActiveX.hlp": {
+          "size": 40215,
+          "sha256": "3bc7173ec5d2e3d7470db92cca371610bdb51a9995b5ee4027a4824f5dca183c"
+        },
+        "Xtras/ActiveX.x32": {
+          "size": 122880,
+          "sha256": "cdabba7e77bca296eb07aa57aab251d83dd51dabb753fdf9b5d0821f0d7a35ca"
+        },
+        "Xtras/Actor Control.x32": {
+          "size": 61440,
+          "sha256": "871759554a3ce8ade8525af9a6b3c54ac6e31371844bd13062dcbfb8c81eab0f"
+        },
+        "Xtras/Animated GIF Asset.x32": {
+          "size": 40960,
+          "sha256": "c11599d784f05f06f1839f70dc93d6e7930aa59702a353ff3683d96546af3f97"
+        },
+        "Xtras/Animated GIF Options.x32": {
+          "size": 90112,
+          "sha256": "57ce2677d557ef9c9d8a1539c8d43bd8df939331b2dd9fabbfe149618bdc7027"
+        },
+        "Xtras/Aprxdist.exe": {
+          "size": 158560,
+          "sha256": "ee193f367d8da5ce7b6cc9b1576f7a5376b81641cb20662a4215457b527a1fb9"
+        },
+        "Xtras/Axdist.exe": {
+          "size": 803680,
+          "sha256": "c1e64632d21d75eb14eb17aa745d335f2b406b3a884870ce9d6a554cd69d26e7"
+        },
+        "Xtras/BMP Agent.x32": {
+          "size": 24576,
+          "sha256": "d8ee116210dd2c9f993551b69c580877f71c85624e7b15e6e1b7580c6936db79"
+        },
+        "Xtras/BitdReader.x32": {
+          "size": 28672,
+          "sha256": "cac83fe3f0347d9afcb70a8c4761e0a122140c00476c3bc6dcdc3ab87f655e21"
+        },
+        "Xtras/Cursor Asset.x32": {
+          "size": 69632,
+          "sha256": "c85034539f78ebd2a4912f36a22282a861e940f9f9794eb1245f4c891f530cd1"
+        },
+        "Xtras/Cursor Options.x32": {
+          "size": 106496,
+          "sha256": "67504f54e8cc4a512b91ffd7a172539c630000790fdfabaa1fd1788497bb1a3f"
+        },
+        "Xtras/DVD Asset.x32": {
+          "size": 81920,
+          "sha256": "9927fe65fd6393c3f79cd06bd46affb2495a695c61222e57601e9e1a04685260"
+        },
+        "Xtras/DVD Authoring.x32": {
+          "size": 53248,
+          "sha256": "24665a3deb8252479ead66687150a6b8c765e234ca64c31d47ac0c6121357a16"
+        },
+        "Xtras/DirectSound.x32": {
+          "size": 32768,
+          "sha256": "d8ca89c97177464c00323f9ad3e5fd95353ce093706c559dfb63a8a535ab3dad"
+        },
+        "Xtras/Dsbl_plg.txt": {
+          "size": 598,
+          "sha256": "9537d56fd5eda75d7cf9a35a72e412a56c4ec8d3490bf068f429478c1d7628eb"
+        },
+        "Xtras/FileIo.x32": {
+          "size": 40960,
+          "sha256": "0f0a616518642f786974024866830a6902ccdac8223e9dcc4a555066fa608659"
+        },
+        "Xtras/Fireworks Import.x32": {
+          "size": 98304,
+          "sha256": "63a543bb6cdc03aca8641474460e406146b555052d1de3df90fba1d228fb3358"
+        },
+        "Xtras/Flash Agent.x32": {
+          "size": 24576,
+          "sha256": "3b983abec73d75952bbb9b1191e0a6f2e1b7f1f396afa07fc40651d69b4030c7"
+        },
+        "Xtras/Font Asset Dialog.x32": {
+          "size": 122880,
+          "sha256": "fdf214a8dca0ddfdd8307c5111aa6692f703f20f8c9f538df136115db0fba579"
+        },
+        "Xtras/Font Asset.x32": {
+          "size": 65536,
+          "sha256": "cec9109f1b022555e12459a932f77d21cc00bcc95e9c72cd0966e41c14294e3e"
+        },
+        "Xtras/Font Xtra.x32": {
+          "size": 278528,
+          "sha256": "36cf1efec70e9fcd88f44c964ea95c37353249cbbe331999a8afb11f7e10813a"
+        },
+        "Xtras/GIF Agent.x32": {
+          "size": 24576,
+          "sha256": "b2fc4a3c3773ec64307ce19251d9d33216f2bec3097b5d28d36e9246cacb6de0"
+        },
+        "Xtras/Havok.x32": {
+          "size": 573440,
+          "sha256": "90694ddbad361fbfdd7842f81bab842001d7ef1ca3e8eb5a94ac6c08538638eb"
+        },
+        "Xtras/INetURL.x32": {
+          "size": 45056,
+          "sha256": "b44d69a708b372858b14efbfec5022ec7ebc4e0d727f7437528cc5827fa4ac78"
+        },
+        "Xtras/Image Translator Helper.x32": {
+          "size": 45056,
+          "sha256": "10e620744d21ea3c6ebf95db537309eba798eb506dd88d41557fe2509b15b736"
+        },
+        "Xtras/JPEG Agent.x32": {
+          "size": 24576,
+          "sha256": "2de8bb570ea570db3bce6c2161fe8217d5a32adb7599eda7ab6ef226fa526be9"
+        },
+        "Xtras/JPEG Export.x32": {
+          "size": 69632,
+          "sha256": "2c4f0639f238159df6148dbaeee1bb24a9b1c54265fe478f77c67e6b83c64322"
+        },
+        "Xtras/LZComprs.x32": {
+          "size": 49152,
+          "sha256": "ff6616c7d419eb8925a338ea704be271e6564d8fb99f86df32eac6701676143b"
+        },
+        "Xtras/LeechProtectionRemovalHelp.x32": {
+          "size": 335872,
+          "sha256": "83be4c0485fd89a759393278ea9842fc58a1997ea2a4b4f87ad20834adfcdc3e"
+        },
+        "Xtras/MPEG 3 Import Export.x32": {
+          "size": 77824,
+          "sha256": "76cfd15157304ffe4ab92756887bfaf98b3fe264dc0273002aa42baadcf61d27"
+        },
+        "Xtras/MacPaint Import.x32": {
+          "size": 28672,
+          "sha256": "e77b62460c1bfaa53c547275affb5fdda0da54f738ee222e00b6334e70ec6343"
+        },
+        "Xtras/Mix Services.x32": {
+          "size": 98304,
+          "sha256": "872495d4643dc49f3e63974c5297ab789231d9b68405373b76016efdbafd928d"
+        },
+        "Xtras/Mui Dialog.x32": {
+          "size": 282624,
+          "sha256": "67dafbde8966b6da4eb894608cacdeb276788148d03609611536078b766638c0"
+        },
+        "Xtras/NetFile.x32": {
+          "size": 53248,
+          "sha256": "437b4b0729dfd5726f9a85cc228481d6c1f7aecfb5bfbe6b83a9c252fb4498d8"
+        },
+        "Xtras/NetLingo.x32": {
+          "size": 49152,
+          "sha256": "436d584756d072a623f436d8c67c3c2295dd75e1dfc42cd9b0c498fb3e94f260"
+        },
+        "Xtras/PICT Agent.x32": {
+          "size": 24576,
+          "sha256": "103b84a420b170f7ef1b21bbb6975ba91bda895679663f5a661607f50077ef2f"
+        },
+        "Xtras/PNG Import Export.x32": {
+          "size": 143360,
+          "sha256": "aafe50032203d990a3eb391dde53c60fed41315f4e2f168814f09bb7748606c7"
+        },
+        "Xtras/Palette Import.x32": {
+          "size": 28672,
+          "sha256": "9d26aab6a9d58eb34a908585d11f722ae0d608172e2000a52e9f3be7ca0cdd08"
+        },
+        "Xtras/Photoshop 3.0 Import.x32": {
+          "size": 36864,
+          "sha256": "5d8d33c7d138982d8154feca41b4705d5f647264dc863ebd593a370a456e9cc5"
+        },
+        "Xtras/Photoshop CLUT Import.x32": {
+          "size": 24576,
+          "sha256": "2293315a459b490d054e355aabbe49deca497732630001d745bac5849f81ce47"
+        },
+        "Xtras/Pshopflt.x32": {
+          "size": 135168,
+          "sha256": "c6d3bf299098825ec38c050320b5dfe582ccff4ab8d27de63562bf064dba5a46"
+        },
+        "Xtras/QTAuth.x32": {
+          "size": 147456,
+          "sha256": "e5d02986f18b7253514a70aadef1ee4c58e28c37b248afccdc9061b57ae47cd0"
+        },
+        "Xtras/QTExport.x32": {
+          "size": 167936,
+          "sha256": "548e0e34e9491c62a2a08823febb315d46f1d59ce22d6e3effb6c43bb7093916"
+        },
+        "Xtras/QuickTime Agent.x32": {
+          "size": 24576,
+          "sha256": "e2dad12a00300146b661175e15b3b509de9f7ab6299e9e5154a6eedb6f2fe46a"
+        },
+        "Xtras/RealMedia Asset.x32": {
+          "size": 77824,
+          "sha256": "593b4191da3d41b8bfd9189cff2126f08ce3b60a958fb0810eab8330ffb71fe7"
+        },
+        "Xtras/RealMedia Authoring.x32": {
+          "size": 57344,
+          "sha256": "381d302e3df102bb3f46986aeabb06c68c93d46f09c71318fe222b284db4feb4"
+        },
+        "Xtras/SWA Import Export.x32": {
+          "size": 45056,
+          "sha256": "1b12086a1b932ac816f9d468909cac9b72c4a2353dab098e1468316815656943"
+        },
+        "Xtras/SWACnvrt.x32": {
+          "size": 208896,
+          "sha256": "677fe29e7f4406661aa83ddf9129e1446852375625e812c9b50be5e7f9704b0a"
+        },
+        "Xtras/SWADCmpr.x32": {
+          "size": 69632,
+          "sha256": "dd75853f47a8930b523a19842e1391e10a81aabb4baa56ece6fc0e476b2d9aea"
+        },
+        "Xtras/SWAOpt.x32": {
+          "size": 73728,
+          "sha256": "7652f87ef966f0e2a1f2769a0ea0ea6f823af49eec05f52b43c67c6958a5e24d"
+        },
+        "Xtras/SWAStrm.x32": {
+          "size": 57344,
+          "sha256": "640d25f863fa96f122d620539a324ce686c50b44fb379bfe6abacc9d2c488d69"
+        },
+        "Xtras/Script Agent.x32": {
+          "size": 24576,
+          "sha256": "b2ea044b2c4097ae84dcc222fe80ed9373d74458a1aff6a4b111ddba834fae77"
+        },
+        "Xtras/Shockwave 3D Asset.x32": {
+          "size": 1687552,
+          "sha256": "0f8d4e79fb2e269094602e5cda43d7e32d7ac0975ab22ed43ec752a47fac57bd"
+        },
+        "Xtras/Sound Control.x32": {
+          "size": 49152,
+          "sha256": "21d6ac95dd0d01e2c0e962d95489146267f1ee373e0c3e373b54e42f64a38407"
+        },
+        "Xtras/Sound Import Export.x32": {
+          "size": 90112,
+          "sha256": "acde6612c400333829cf94f5c00c7acf24224b34f2e304444a6489e27e600312"
+        },
+        "Xtras/Speech.x32": {
+          "size": 53248,
+          "sha256": "0d4ea2badd5057cf7f4d26220007de72cf37198624c66add8afcd581ef6bd1ab"
+        },
+        "Xtras/Squish.x32": {
+          "size": 49152,
+          "sha256": "c1cbcd5644c0762b55842be515abe65e5f5b945dead7f8051964e4b7c594ad60"
+        },
+        "Xtras/Sun AU Import Export.x32": {
+          "size": 36864,
+          "sha256": "c4bafa96c0cbe4f4db5bd8a19dc3ac8d556ac5dba6c1bb9ef29176d22bcce840"
+        },
+        "Xtras/SwaCmpr.x32": {
+          "size": 192512,
+          "sha256": "b30d188d9bf2d6b25814dac9bb78a7c351e39fa8064ca6ab8067c602124a4246"
+        },
+        "Xtras/TIFF Import Export.x32": {
+          "size": 213504,
+          "sha256": "03de19a7b90552d473824798c7b716432619ba2c02cb5a8772624413f6292766"
+        },
+        "Xtras/Targa Import Export.x32": {
+          "size": 37376,
+          "sha256": "d4840ef67334f6e9181417cce1057bd53821d7f4c49daed98bfd7142870791c3"
+        },
+        "Xtras/Text Asset.x32": {
+          "size": 94208,
+          "sha256": "db22d1b3d3734d6c3e5535d3f5b0f25aa7e8cfd9cdf875828b5edb6e43304be8"
+        },
+        "Xtras/TextAuth.x32": {
+          "size": 90112,
+          "sha256": "38d356cb8c5529be979f7fbae233537e8960c901b7c62499d7b67309d7dfaa96"
+        },
+        "Xtras/TextXtra.x32": {
+          "size": 344064,
+          "sha256": "79b5b98ea135e97749e1317d576918185ecb32d05a959539fd3d4e86d9a14231"
+        },
+        "Xtras/UIHelper.x32": {
+          "size": 45056,
+          "sha256": "e57975d7c82e74fed1a7c2c3d90e25be2bad646507a620647550169bd3d5a5e8"
+        },
+        "Xtras/UnzipXtra.x32": {
+          "size": 102400,
+          "sha256": "791d6dbffe6fc62dce94e9aaa5d67d2ddcefef6faeaac801f10c6690006ad01d"
+        },
+        "Xtras/Vector Editor Xtra.x32": {
+          "size": 372736,
+          "sha256": "c8320f96e693e70d27538c7dde200f10b4b453a90f65314dc4c9ab00a9ecc36a"
+        },
+        "Xtras/Windows Media Asset.x32": {
+          "size": 90112,
+          "sha256": "5b9bb177523de09a87820dca8e1657ff51caf5117572b95420dddffede909daa"
+        },
+        "Xtras/Windows Media Auth.x32": {
+          "size": 57344,
+          "sha256": "2d1690a65e76fc14326fcf408bf029b7ce5b2c27750d70f7ed6c9325e83d9943"
+        },
+        "Xtras/Wintdist.exe": {
+          "size": 401760,
+          "sha256": "36c2f9a8d4c82b5f5a95617d02e550792428f99813ef945f5c9a8238b083d48d"
+        },
+        "Xtras/XMLParser.x32": {
+          "size": 167936,
+          "sha256": "56e16c094491549b1a8166838cebab9852a612469b9b2d0fc1d141d2dbffedbd"
+        },
+        "Xtras/ZipXtra.x32": {
+          "size": 45056,
+          "sha256": "8c894adbfa32f8e07c511c1dd27b3bd787057c3f7dfdc352ea58191ba8d607ee"
+        },
+        "Xtras/download/MacromediaInc/FontAsset/Font Asset.x32": {
+          "size": 65536,
+          "sha256": "7fedfb95e4e1bdee8717572e42664ed9df8b9c9c620056b3dd8fd62f5157b48a"
+        },
+        "Xtras/download/MutationLabsInc/Enhancerw32/Enhancer.x32": {
+          "size": 94208,
+          "sha256": "35cb67c23676f6ba55d735b9d041a00e247a7cbf81bff4f8df33a7792ce20e2c"
+        },
+        "Xtras/ement/Flash Asset/Flash Asset Options.x32": {
+          "size": 139264,
+          "sha256": "d776b755116024df0dde0163200c24ff32ed79d11d72eecfb221907b3a7d183d"
+        },
+        "Xtras/ement/Flash Asset/Flash Asset.x32": {
+          "size": 1597440,
+          "sha256": "0b8985f2ccabd95913a1673d745ab76716e6e2333b93f3ff47a3c28135e593ab"
+        },
+        "Xtras/ement/QT/Qt6Asset.x32": {
+          "size": 122880,
+          "sha256": "004180c0cfc2774297b7e5da8b7ac853607c838e6bfe11247f225a5b9f9f0e96"
+        },
+        "Xtras/mmpsf32.dll": {
+          "size": 6656,
+          "sha256": "94b5b9fedea93d77db8faa000c23f61484d079365bb1e72000d7ac43809c9617"
+        },
+        "Xtras/romix.x32": {
+          "size": 53248,
+          "sha256": "d94771ef4b855f286715f087c696df82b5b7396f696911aa13d2dc0605948c17"
+        },
+        "dgVoodoo.conf": {
+          "size": 1240,
+          "sha256": "025e88b9a15283d011fdcf4bd912166efc0dbfa93c7a20d420d295f39907b581"
+        },
+        "game.dir": {
+          "size": 7411337,
+          "sha256": "063733277ca3e2a37334fa2c1a9ebfaa310675d5d19a1ded2551b8cf803874d4"
+        },
+        "gamewrapper.dir": {
+          "size": 28910,
+          "sha256": "a29c151cf5046692df98e27aa51695414324004d4443a79c83738290b52c3f89"
+        },
+        "msvcrt.dll": {
+          "size": 266293,
+          "sha256": "d4287ab5e4988dfe99bd54243d50dbe8744094f11fe5f9809a1a6fb9728c2124"
+        }
+      }
+    },
+    "v36": {
+      "recovered_archive": "062-RedlineRumble_4K_v36_RearCamera.zip",
+      "files": {
+        "Dirapi.dll": {
+          "size": 1499136,
+          "sha256": "cc79cec2409170223bee77272c39caf25277cb40f999070235c8ca8e5011f83b"
+        },
+        "FixFullscreen_v18.ps1": {
+          "size": 9013,
+          "sha256": "2ce824860dfdfb30ba0ea57008ed9f584f0ddeea7c64b42c4bddd35aa7f07adf"
+        },
+        "Iml32.dll": {
+          "size": 614400,
+          "sha256": "0ae5288fb41d9e58ad48600e6abe147bb7fe8ae850a490a3ec05fab9b9bd17e4"
+        },
+        "Launch Redline Rumble 4K 60FPS AA.cmd": {
+          "size": 583,
+          "sha256": "1cd8f1f929ce84fb5c40b492bb3c6e54033bdadef54516dd53de03807e8632a7"
+        },
+        "Proj.dll": {
+          "size": 151552,
+          "sha256": "43dd597efcfad738bfaf1275adf8c41480118910cc88f78b5e857c8b39d4b655"
+        },
+        "Projector.exe": {
+          "size": 81920,
+          "sha256": "1b0a490e014044125febf056bbc9fab0b73f27ac6de193acf4cd6d4100eac549"
+        },
+        "Projector.ini": {
+          "size": 15701,
+          "sha256": "0c6514823f34ef8fc896e1d157927e6aa521d9880b7ff7a2949c082e57a2fbae"
+        },
+        "README v36.txt": {
+          "size": 668,
+          "sha256": "d728700cec28da84ad1feedf07593c3a8f4edce0fddb20dbae753b8dd16d6eaf"
+        },
+        "Setup dgVoodoo2 2.87.5.ps1": {
+          "size": 1297,
+          "sha256": "12fa4c0da6d5f164f915b4964ded4991db5fdc6a538e7ffb24e8ab97a7c5154f"
+        },
+        "Xtras/3DAuth.x32": {
+          "size": 81920,
+          "sha256": "e7fd471fe67e17b68eb66fb3c107a577ee064d87073145b2802db998af4c7aba"
+        },
+        "Xtras/AVI Agent.x32": {
+          "size": 24576,
+          "sha256": "ef406c614cff0d34b3199150904adefce6984ed2b9e32ea9ec884817b103eefb"
+        },
+        "Xtras/ActXPriv.x32": {
+          "size": 204800,
+          "sha256": "da246aee1879c80f5ee287d9a435321394d9d7e9d5ea5dac3de61302d54a6ab1"
+        },
+        "Xtras/ActiveX.hlp": {
+          "size": 40215,
+          "sha256": "3bc7173ec5d2e3d7470db92cca371610bdb51a9995b5ee4027a4824f5dca183c"
+        },
+        "Xtras/ActiveX.x32": {
+          "size": 122880,
+          "sha256": "cdabba7e77bca296eb07aa57aab251d83dd51dabb753fdf9b5d0821f0d7a35ca"
+        },
+        "Xtras/Actor Control.x32": {
+          "size": 61440,
+          "sha256": "871759554a3ce8ade8525af9a6b3c54ac6e31371844bd13062dcbfb8c81eab0f"
+        },
+        "Xtras/Animated GIF Asset.x32": {
+          "size": 40960,
+          "sha256": "c11599d784f05f06f1839f70dc93d6e7930aa59702a353ff3683d96546af3f97"
+        },
+        "Xtras/Animated GIF Options.x32": {
+          "size": 90112,
+          "sha256": "57ce2677d557ef9c9d8a1539c8d43bd8df939331b2dd9fabbfe149618bdc7027"
+        },
+        "Xtras/Aprxdist.exe": {
+          "size": 158560,
+          "sha256": "ee193f367d8da5ce7b6cc9b1576f7a5376b81641cb20662a4215457b527a1fb9"
+        },
+        "Xtras/Axdist.exe": {
+          "size": 803680,
+          "sha256": "c1e64632d21d75eb14eb17aa745d335f2b406b3a884870ce9d6a554cd69d26e7"
+        },
+        "Xtras/BMP Agent.x32": {
+          "size": 24576,
+          "sha256": "d8ee116210dd2c9f993551b69c580877f71c85624e7b15e6e1b7580c6936db79"
+        },
+        "Xtras/BitdReader.x32": {
+          "size": 28672,
+          "sha256": "cac83fe3f0347d9afcb70a8c4761e0a122140c00476c3bc6dcdc3ab87f655e21"
+        },
+        "Xtras/Cursor Asset.x32": {
+          "size": 69632,
+          "sha256": "c85034539f78ebd2a4912f36a22282a861e940f9f9794eb1245f4c891f530cd1"
+        },
+        "Xtras/Cursor Options.x32": {
+          "size": 106496,
+          "sha256": "67504f54e8cc4a512b91ffd7a172539c630000790fdfabaa1fd1788497bb1a3f"
+        },
+        "Xtras/DVD Asset.x32": {
+          "size": 81920,
+          "sha256": "9927fe65fd6393c3f79cd06bd46affb2495a695c61222e57601e9e1a04685260"
+        },
+        "Xtras/DVD Authoring.x32": {
+          "size": 53248,
+          "sha256": "24665a3deb8252479ead66687150a6b8c765e234ca64c31d47ac0c6121357a16"
+        },
+        "Xtras/DirectSound.x32": {
+          "size": 32768,
+          "sha256": "d8ca89c97177464c00323f9ad3e5fd95353ce093706c559dfb63a8a535ab3dad"
+        },
+        "Xtras/Dsbl_plg.txt": {
+          "size": 598,
+          "sha256": "9537d56fd5eda75d7cf9a35a72e412a56c4ec8d3490bf068f429478c1d7628eb"
+        },
+        "Xtras/FileIo.x32": {
+          "size": 40960,
+          "sha256": "0f0a616518642f786974024866830a6902ccdac8223e9dcc4a555066fa608659"
+        },
+        "Xtras/Fireworks Import.x32": {
+          "size": 98304,
+          "sha256": "63a543bb6cdc03aca8641474460e406146b555052d1de3df90fba1d228fb3358"
+        },
+        "Xtras/Flash Agent.x32": {
+          "size": 24576,
+          "sha256": "3b983abec73d75952bbb9b1191e0a6f2e1b7f1f396afa07fc40651d69b4030c7"
+        },
+        "Xtras/Font Asset Dialog.x32": {
+          "size": 122880,
+          "sha256": "fdf214a8dca0ddfdd8307c5111aa6692f703f20f8c9f538df136115db0fba579"
+        },
+        "Xtras/Font Asset.x32": {
+          "size": 65536,
+          "sha256": "cec9109f1b022555e12459a932f77d21cc00bcc95e9c72cd0966e41c14294e3e"
+        },
+        "Xtras/Font Xtra.x32": {
+          "size": 278528,
+          "sha256": "36cf1efec70e9fcd88f44c964ea95c37353249cbbe331999a8afb11f7e10813a"
+        },
+        "Xtras/GIF Agent.x32": {
+          "size": 24576,
+          "sha256": "b2fc4a3c3773ec64307ce19251d9d33216f2bec3097b5d28d36e9246cacb6de0"
+        },
+        "Xtras/Havok.x32": {
+          "size": 573440,
+          "sha256": "90694ddbad361fbfdd7842f81bab842001d7ef1ca3e8eb5a94ac6c08538638eb"
+        },
+        "Xtras/INetURL.x32": {
+          "size": 45056,
+          "sha256": "b44d69a708b372858b14efbfec5022ec7ebc4e0d727f7437528cc5827fa4ac78"
+        },
+        "Xtras/Image Translator Helper.x32": {
+          "size": 45056,
+          "sha256": "10e620744d21ea3c6ebf95db537309eba798eb506dd88d41557fe2509b15b736"
+        },
+        "Xtras/JPEG Agent.x32": {
+          "size": 24576,
+          "sha256": "2de8bb570ea570db3bce6c2161fe8217d5a32adb7599eda7ab6ef226fa526be9"
+        },
+        "Xtras/JPEG Export.x32": {
+          "size": 69632,
+          "sha256": "2c4f0639f238159df6148dbaeee1bb24a9b1c54265fe478f77c67e6b83c64322"
+        },
+        "Xtras/LZComprs.x32": {
+          "size": 49152,
+          "sha256": "ff6616c7d419eb8925a338ea704be271e6564d8fb99f86df32eac6701676143b"
+        },
+        "Xtras/LeechProtectionRemovalHelp.x32": {
+          "size": 335872,
+          "sha256": "83be4c0485fd89a759393278ea9842fc58a1997ea2a4b4f87ad20834adfcdc3e"
+        },
+        "Xtras/MPEG 3 Import Export.x32": {
+          "size": 77824,
+          "sha256": "76cfd15157304ffe4ab92756887bfaf98b3fe264dc0273002aa42baadcf61d27"
+        },
+        "Xtras/MacPaint Import.x32": {
+          "size": 28672,
+          "sha256": "e77b62460c1bfaa53c547275affb5fdda0da54f738ee222e00b6334e70ec6343"
+        },
+        "Xtras/Mix Services.x32": {
+          "size": 98304,
+          "sha256": "872495d4643dc49f3e63974c5297ab789231d9b68405373b76016efdbafd928d"
+        },
+        "Xtras/Mui Dialog.x32": {
+          "size": 282624,
+          "sha256": "67dafbde8966b6da4eb894608cacdeb276788148d03609611536078b766638c0"
+        },
+        "Xtras/NetFile.x32": {
+          "size": 53248,
+          "sha256": "437b4b0729dfd5726f9a85cc228481d6c1f7aecfb5bfbe6b83a9c252fb4498d8"
+        },
+        "Xtras/NetLingo.x32": {
+          "size": 49152,
+          "sha256": "436d584756d072a623f436d8c67c3c2295dd75e1dfc42cd9b0c498fb3e94f260"
+        },
+        "Xtras/PICT Agent.x32": {
+          "size": 24576,
+          "sha256": "103b84a420b170f7ef1b21bbb6975ba91bda895679663f5a661607f50077ef2f"
+        },
+        "Xtras/PNG Import Export.x32": {
+          "size": 143360,
+          "sha256": "aafe50032203d990a3eb391dde53c60fed41315f4e2f168814f09bb7748606c7"
+        },
+        "Xtras/Palette Import.x32": {
+          "size": 28672,
+          "sha256": "9d26aab6a9d58eb34a908585d11f722ae0d608172e2000a52e9f3be7ca0cdd08"
+        },
+        "Xtras/Photoshop 3.0 Import.x32": {
+          "size": 36864,
+          "sha256": "5d8d33c7d138982d8154feca41b4705d5f647264dc863ebd593a370a456e9cc5"
+        },
+        "Xtras/Photoshop CLUT Import.x32": {
+          "size": 24576,
+          "sha256": "2293315a459b490d054e355aabbe49deca497732630001d745bac5849f81ce47"
+        },
+        "Xtras/Pshopflt.x32": {
+          "size": 135168,
+          "sha256": "c6d3bf299098825ec38c050320b5dfe582ccff4ab8d27de63562bf064dba5a46"
+        },
+        "Xtras/QTAuth.x32": {
+          "size": 147456,
+          "sha256": "e5d02986f18b7253514a70aadef1ee4c58e28c37b248afccdc9061b57ae47cd0"
+        },
+        "Xtras/QTExport.x32": {
+          "size": 167936,
+          "sha256": "548e0e34e9491c62a2a08823febb315d46f1d59ce22d6e3effb6c43bb7093916"
+        },
+        "Xtras/QuickTime Agent.x32": {
+          "size": 24576,
+          "sha256": "e2dad12a00300146b661175e15b3b509de9f7ab6299e9e5154a6eedb6f2fe46a"
+        },
+        "Xtras/RealMedia Asset.x32": {
+          "size": 77824,
+          "sha256": "593b4191da3d41b8bfd9189cff2126f08ce3b60a958fb0810eab8330ffb71fe7"
+        },
+        "Xtras/RealMedia Authoring.x32": {
+          "size": 57344,
+          "sha256": "381d302e3df102bb3f46986aeabb06c68c93d46f09c71318fe222b284db4feb4"
+        },
+        "Xtras/SWA Import Export.x32": {
+          "size": 45056,
+          "sha256": "1b12086a1b932ac816f9d468909cac9b72c4a2353dab098e1468316815656943"
+        },
+        "Xtras/SWACnvrt.x32": {
+          "size": 208896,
+          "sha256": "677fe29e7f4406661aa83ddf9129e1446852375625e812c9b50be5e7f9704b0a"
+        },
+        "Xtras/SWADCmpr.x32": {
+          "size": 69632,
+          "sha256": "dd75853f47a8930b523a19842e1391e10a81aabb4baa56ece6fc0e476b2d9aea"
+        },
+        "Xtras/SWAOpt.x32": {
+          "size": 73728,
+          "sha256": "7652f87ef966f0e2a1f2769a0ea0ea6f823af49eec05f52b43c67c6958a5e24d"
+        },
+        "Xtras/SWAStrm.x32": {
+          "size": 57344,
+          "sha256": "640d25f863fa96f122d620539a324ce686c50b44fb379bfe6abacc9d2c488d69"
+        },
+        "Xtras/Script Agent.x32": {
+          "size": 24576,
+          "sha256": "b2ea044b2c4097ae84dcc222fe80ed9373d74458a1aff6a4b111ddba834fae77"
+        },
+        "Xtras/Shockwave 3D Asset.x32": {
+          "size": 1687552,
+          "sha256": "0f8d4e79fb2e269094602e5cda43d7e32d7ac0975ab22ed43ec752a47fac57bd"
+        },
+        "Xtras/Sound Control.x32": {
+          "size": 49152,
+          "sha256": "21d6ac95dd0d01e2c0e962d95489146267f1ee373e0c3e373b54e42f64a38407"
+        },
+        "Xtras/Sound Import Export.x32": {
+          "size": 90112,
+          "sha256": "acde6612c400333829cf94f5c00c7acf24224b34f2e304444a6489e27e600312"
+        },
+        "Xtras/Speech.x32": {
+          "size": 53248,
+          "sha256": "0d4ea2badd5057cf7f4d26220007de72cf37198624c66add8afcd581ef6bd1ab"
+        },
+        "Xtras/Squish.x32": {
+          "size": 49152,
+          "sha256": "c1cbcd5644c0762b55842be515abe65e5f5b945dead7f8051964e4b7c594ad60"
+        },
+        "Xtras/Sun AU Import Export.x32": {
+          "size": 36864,
+          "sha256": "c4bafa96c0cbe4f4db5bd8a19dc3ac8d556ac5dba6c1bb9ef29176d22bcce840"
+        },
+        "Xtras/SwaCmpr.x32": {
+          "size": 192512,
+          "sha256": "b30d188d9bf2d6b25814dac9bb78a7c351e39fa8064ca6ab8067c602124a4246"
+        },
+        "Xtras/TIFF Import Export.x32": {
+          "size": 213504,
+          "sha256": "03de19a7b90552d473824798c7b716432619ba2c02cb5a8772624413f6292766"
+        },
+        "Xtras/Targa Import Export.x32": {
+          "size": 37376,
+          "sha256": "d4840ef67334f6e9181417cce1057bd53821d7f4c49daed98bfd7142870791c3"
+        },
+        "Xtras/Text Asset.x32": {
+          "size": 94208,
+          "sha256": "db22d1b3d3734d6c3e5535d3f5b0f25aa7e8cfd9cdf875828b5edb6e43304be8"
+        },
+        "Xtras/TextAuth.x32": {
+          "size": 90112,
+          "sha256": "38d356cb8c5529be979f7fbae233537e8960c901b7c62499d7b67309d7dfaa96"
+        },
+        "Xtras/TextXtra.x32": {
+          "size": 344064,
+          "sha256": "79b5b98ea135e97749e1317d576918185ecb32d05a959539fd3d4e86d9a14231"
+        },
+        "Xtras/UIHelper.x32": {
+          "size": 45056,
+          "sha256": "e57975d7c82e74fed1a7c2c3d90e25be2bad646507a620647550169bd3d5a5e8"
+        },
+        "Xtras/UnzipXtra.x32": {
+          "size": 102400,
+          "sha256": "791d6dbffe6fc62dce94e9aaa5d67d2ddcefef6faeaac801f10c6690006ad01d"
+        },
+        "Xtras/Vector Editor Xtra.x32": {
+          "size": 372736,
+          "sha256": "c8320f96e693e70d27538c7dde200f10b4b453a90f65314dc4c9ab00a9ecc36a"
+        },
+        "Xtras/Windows Media Asset.x32": {
+          "size": 90112,
+          "sha256": "5b9bb177523de09a87820dca8e1657ff51caf5117572b95420dddffede909daa"
+        },
+        "Xtras/Windows Media Auth.x32": {
+          "size": 57344,
+          "sha256": "2d1690a65e76fc14326fcf408bf029b7ce5b2c27750d70f7ed6c9325e83d9943"
+        },
+        "Xtras/Wintdist.exe": {
+          "size": 401760,
+          "sha256": "36c2f9a8d4c82b5f5a95617d02e550792428f99813ef945f5c9a8238b083d48d"
+        },
+        "Xtras/XMLParser.x32": {
+          "size": 167936,
+          "sha256": "56e16c094491549b1a8166838cebab9852a612469b9b2d0fc1d141d2dbffedbd"
+        },
+        "Xtras/ZipXtra.x32": {
+          "size": 45056,
+          "sha256": "8c894adbfa32f8e07c511c1dd27b3bd787057c3f7dfdc352ea58191ba8d607ee"
+        },
+        "Xtras/download/MacromediaInc/FontAsset/Font Asset.x32": {
+          "size": 65536,
+          "sha256": "7fedfb95e4e1bdee8717572e42664ed9df8b9c9c620056b3dd8fd62f5157b48a"
+        },
+        "Xtras/download/MutationLabsInc/Enhancerw32/Enhancer.x32": {
+          "size": 94208,
+          "sha256": "35cb67c23676f6ba55d735b9d041a00e247a7cbf81bff4f8df33a7792ce20e2c"
+        },
+        "Xtras/ement/Flash Asset/Flash Asset Options.x32": {
+          "size": 139264,
+          "sha256": "d776b755116024df0dde0163200c24ff32ed79d11d72eecfb221907b3a7d183d"
+        },
+        "Xtras/ement/Flash Asset/Flash Asset.x32": {
+          "size": 1597440,
+          "sha256": "0b8985f2ccabd95913a1673d745ab76716e6e2333b93f3ff47a3c28135e593ab"
+        },
+        "Xtras/ement/QT/Qt6Asset.x32": {
+          "size": 122880,
+          "sha256": "004180c0cfc2774297b7e5da8b7ac853607c838e6bfe11247f225a5b9f9f0e96"
+        },
+        "Xtras/mmpsf32.dll": {
+          "size": 6656,
+          "sha256": "94b5b9fedea93d77db8faa000c23f61484d079365bb1e72000d7ac43809c9617"
+        },
+        "Xtras/romix.x32": {
+          "size": 53248,
+          "sha256": "d94771ef4b855f286715f087c696df82b5b7396f696911aa13d2dc0605948c17"
+        },
+        "dgVoodoo.conf": {
+          "size": 1240,
+          "sha256": "025e88b9a15283d011fdcf4bd912166efc0dbfa93c7a20d420d295f39907b581"
+        },
+        "game.dir": {
+          "size": 7424920,
+          "sha256": "771cbb57bb7ee6ef2c19ce23151dd9584e2a0995f90bd43a084237b50638c4ce"
+        },
+        "gamewrapper.dir": {
+          "size": 28910,
+          "sha256": "a29c151cf5046692df98e27aa51695414324004d4443a79c83738290b52c3f89"
+        },
+        "msvcrt.dll": {
+          "size": 266293,
+          "sha256": "d4287ab5e4988dfe99bd54243d50dbe8744094f11fe5f9809a1a6fb9728c2124"
+        }
+      }
+    },
+    "v39": {
+      "recovered_archive": "103-RR_v39_HardCap32.zip",
+      "files": {
+        "Dirapi.dll": {
+          "size": 1499136,
+          "sha256": "cc79cec2409170223bee77272c39caf25277cb40f999070235c8ca8e5011f83b"
+        },
+        "FixFullscreen_v18.ps1": {
+          "size": 9013,
+          "sha256": "2ce824860dfdfb30ba0ea57008ed9f584f0ddeea7c64b42c4bddd35aa7f07adf"
+        },
+        "Iml32.dll": {
+          "size": 614400,
+          "sha256": "0ae5288fb41d9e58ad48600e6abe147bb7fe8ae850a490a3ec05fab9b9bd17e4"
+        },
+        "Launch Redline Rumble 4K 60FPS AA.cmd": {
+          "size": 583,
+          "sha256": "1cd8f1f929ce84fb5c40b492bb3c6e54033bdadef54516dd53de03807e8632a7"
+        },
+        "Proj.dll": {
+          "size": 151552,
+          "sha256": "43dd597efcfad738bfaf1275adf8c41480118910cc88f78b5e857c8b39d4b655"
+        },
+        "Projector.exe": {
+          "size": 81920,
+          "sha256": "1b0a490e014044125febf056bbc9fab0b73f27ac6de193acf4cd6d4100eac549"
+        },
+        "Projector.ini": {
+          "size": 15701,
+          "sha256": "0c6514823f34ef8fc896e1d157927e6aa521d9880b7ff7a2949c082e57a2fbae"
+        },
+        "README v39.txt": {
+          "size": 548,
+          "sha256": "2156eff43626474fe7b8e306e82d550222f0789cca4638c8be9517af7a58f84e"
+        },
+        "Setup dgVoodoo2 2.87.5.ps1": {
+          "size": 1297,
+          "sha256": "12fa4c0da6d5f164f915b4964ded4991db5fdc6a538e7ffb24e8ab97a7c5154f"
+        },
+        "Xtras/3DAuth.x32": {
+          "size": 81920,
+          "sha256": "e7fd471fe67e17b68eb66fb3c107a577ee064d87073145b2802db998af4c7aba"
+        },
+        "Xtras/AVI Agent.x32": {
+          "size": 24576,
+          "sha256": "ef406c614cff0d34b3199150904adefce6984ed2b9e32ea9ec884817b103eefb"
+        },
+        "Xtras/ActXPriv.x32": {
+          "size": 204800,
+          "sha256": "da246aee1879c80f5ee287d9a435321394d9d7e9d5ea5dac3de61302d54a6ab1"
+        },
+        "Xtras/ActiveX.hlp": {
+          "size": 40215,
+          "sha256": "3bc7173ec5d2e3d7470db92cca371610bdb51a9995b5ee4027a4824f5dca183c"
+        },
+        "Xtras/ActiveX.x32": {
+          "size": 122880,
+          "sha256": "cdabba7e77bca296eb07aa57aab251d83dd51dabb753fdf9b5d0821f0d7a35ca"
+        },
+        "Xtras/Actor Control.x32": {
+          "size": 61440,
+          "sha256": "871759554a3ce8ade8525af9a6b3c54ac6e31371844bd13062dcbfb8c81eab0f"
+        },
+        "Xtras/Animated GIF Asset.x32": {
+          "size": 40960,
+          "sha256": "c11599d784f05f06f1839f70dc93d6e7930aa59702a353ff3683d96546af3f97"
+        },
+        "Xtras/Animated GIF Options.x32": {
+          "size": 90112,
+          "sha256": "57ce2677d557ef9c9d8a1539c8d43bd8df939331b2dd9fabbfe149618bdc7027"
+        },
+        "Xtras/Aprxdist.exe": {
+          "size": 158560,
+          "sha256": "ee193f367d8da5ce7b6cc9b1576f7a5376b81641cb20662a4215457b527a1fb9"
+        },
+        "Xtras/Axdist.exe": {
+          "size": 803680,
+          "sha256": "c1e64632d21d75eb14eb17aa745d335f2b406b3a884870ce9d6a554cd69d26e7"
+        },
+        "Xtras/BMP Agent.x32": {
+          "size": 24576,
+          "sha256": "d8ee116210dd2c9f993551b69c580877f71c85624e7b15e6e1b7580c6936db79"
+        },
+        "Xtras/BitdReader.x32": {
+          "size": 28672,
+          "sha256": "cac83fe3f0347d9afcb70a8c4761e0a122140c00476c3bc6dcdc3ab87f655e21"
+        },
+        "Xtras/Cursor Asset.x32": {
+          "size": 69632,
+          "sha256": "c85034539f78ebd2a4912f36a22282a861e940f9f9794eb1245f4c891f530cd1"
+        },
+        "Xtras/Cursor Options.x32": {
+          "size": 106496,
+          "sha256": "67504f54e8cc4a512b91ffd7a172539c630000790fdfabaa1fd1788497bb1a3f"
+        },
+        "Xtras/DVD Asset.x32": {
+          "size": 81920,
+          "sha256": "9927fe65fd6393c3f79cd06bd46affb2495a695c61222e57601e9e1a04685260"
+        },
+        "Xtras/DVD Authoring.x32": {
+          "size": 53248,
+          "sha256": "24665a3deb8252479ead66687150a6b8c765e234ca64c31d47ac0c6121357a16"
+        },
+        "Xtras/DirectSound.x32": {
+          "size": 32768,
+          "sha256": "d8ca89c97177464c00323f9ad3e5fd95353ce093706c559dfb63a8a535ab3dad"
+        },
+        "Xtras/Dsbl_plg.txt": {
+          "size": 598,
+          "sha256": "9537d56fd5eda75d7cf9a35a72e412a56c4ec8d3490bf068f429478c1d7628eb"
+        },
+        "Xtras/FileIo.x32": {
+          "size": 40960,
+          "sha256": "0f0a616518642f786974024866830a6902ccdac8223e9dcc4a555066fa608659"
+        },
+        "Xtras/Fireworks Import.x32": {
+          "size": 98304,
+          "sha256": "63a543bb6cdc03aca8641474460e406146b555052d1de3df90fba1d228fb3358"
+        },
+        "Xtras/Flash Agent.x32": {
+          "size": 24576,
+          "sha256": "3b983abec73d75952bbb9b1191e0a6f2e1b7f1f396afa07fc40651d69b4030c7"
+        },
+        "Xtras/Font Asset Dialog.x32": {
+          "size": 122880,
+          "sha256": "fdf214a8dca0ddfdd8307c5111aa6692f703f20f8c9f538df136115db0fba579"
+        },
+        "Xtras/Font Asset.x32": {
+          "size": 65536,
+          "sha256": "cec9109f1b022555e12459a932f77d21cc00bcc95e9c72cd0966e41c14294e3e"
+        },
+        "Xtras/Font Xtra.x32": {
+          "size": 278528,
+          "sha256": "36cf1efec70e9fcd88f44c964ea95c37353249cbbe331999a8afb11f7e10813a"
+        },
+        "Xtras/GIF Agent.x32": {
+          "size": 24576,
+          "sha256": "b2fc4a3c3773ec64307ce19251d9d33216f2bec3097b5d28d36e9246cacb6de0"
+        },
+        "Xtras/Havok.x32": {
+          "size": 573440,
+          "sha256": "90694ddbad361fbfdd7842f81bab842001d7ef1ca3e8eb5a94ac6c08538638eb"
+        },
+        "Xtras/INetURL.x32": {
+          "size": 45056,
+          "sha256": "b44d69a708b372858b14efbfec5022ec7ebc4e0d727f7437528cc5827fa4ac78"
+        },
+        "Xtras/Image Translator Helper.x32": {
+          "size": 45056,
+          "sha256": "10e620744d21ea3c6ebf95db537309eba798eb506dd88d41557fe2509b15b736"
+        },
+        "Xtras/JPEG Agent.x32": {
+          "size": 24576,
+          "sha256": "2de8bb570ea570db3bce6c2161fe8217d5a32adb7599eda7ab6ef226fa526be9"
+        },
+        "Xtras/JPEG Export.x32": {
+          "size": 69632,
+          "sha256": "2c4f0639f238159df6148dbaeee1bb24a9b1c54265fe478f77c67e6b83c64322"
+        },
+        "Xtras/LZComprs.x32": {
+          "size": 49152,
+          "sha256": "ff6616c7d419eb8925a338ea704be271e6564d8fb99f86df32eac6701676143b"
+        },
+        "Xtras/LeechProtectionRemovalHelp.x32": {
+          "size": 335872,
+          "sha256": "83be4c0485fd89a759393278ea9842fc58a1997ea2a4b4f87ad20834adfcdc3e"
+        },
+        "Xtras/MPEG 3 Import Export.x32": {
+          "size": 77824,
+          "sha256": "76cfd15157304ffe4ab92756887bfaf98b3fe264dc0273002aa42baadcf61d27"
+        },
+        "Xtras/MacPaint Import.x32": {
+          "size": 28672,
+          "sha256": "e77b62460c1bfaa53c547275affb5fdda0da54f738ee222e00b6334e70ec6343"
+        },
+        "Xtras/Mix Services.x32": {
+          "size": 98304,
+          "sha256": "872495d4643dc49f3e63974c5297ab789231d9b68405373b76016efdbafd928d"
+        },
+        "Xtras/Mui Dialog.x32": {
+          "size": 282624,
+          "sha256": "67dafbde8966b6da4eb894608cacdeb276788148d03609611536078b766638c0"
+        },
+        "Xtras/NetFile.x32": {
+          "size": 53248,
+          "sha256": "437b4b0729dfd5726f9a85cc228481d6c1f7aecfb5bfbe6b83a9c252fb4498d8"
+        },
+        "Xtras/NetLingo.x32": {
+          "size": 49152,
+          "sha256": "436d584756d072a623f436d8c67c3c2295dd75e1dfc42cd9b0c498fb3e94f260"
+        },
+        "Xtras/PICT Agent.x32": {
+          "size": 24576,
+          "sha256": "103b84a420b170f7ef1b21bbb6975ba91bda895679663f5a661607f50077ef2f"
+        },
+        "Xtras/PNG Import Export.x32": {
+          "size": 143360,
+          "sha256": "aafe50032203d990a3eb391dde53c60fed41315f4e2f168814f09bb7748606c7"
+        },
+        "Xtras/Palette Import.x32": {
+          "size": 28672,
+          "sha256": "9d26aab6a9d58eb34a908585d11f722ae0d608172e2000a52e9f3be7ca0cdd08"
+        },
+        "Xtras/Photoshop 3.0 Import.x32": {
+          "size": 36864,
+          "sha256": "5d8d33c7d138982d8154feca41b4705d5f647264dc863ebd593a370a456e9cc5"
+        },
+        "Xtras/Photoshop CLUT Import.x32": {
+          "size": 24576,
+          "sha256": "2293315a459b490d054e355aabbe49deca497732630001d745bac5849f81ce47"
+        },
+        "Xtras/Pshopflt.x32": {
+          "size": 135168,
+          "sha256": "c6d3bf299098825ec38c050320b5dfe582ccff4ab8d27de63562bf064dba5a46"
+        },
+        "Xtras/QTAuth.x32": {
+          "size": 147456,
+          "sha256": "e5d02986f18b7253514a70aadef1ee4c58e28c37b248afccdc9061b57ae47cd0"
+        },
+        "Xtras/QTExport.x32": {
+          "size": 167936,
+          "sha256": "548e0e34e9491c62a2a08823febb315d46f1d59ce22d6e3effb6c43bb7093916"
+        },
+        "Xtras/QuickTime Agent.x32": {
+          "size": 24576,
+          "sha256": "e2dad12a00300146b661175e15b3b509de9f7ab6299e9e5154a6eedb6f2fe46a"
+        },
+        "Xtras/RealMedia Asset.x32": {
+          "size": 77824,
+          "sha256": "593b4191da3d41b8bfd9189cff2126f08ce3b60a958fb0810eab8330ffb71fe7"
+        },
+        "Xtras/RealMedia Authoring.x32": {
+          "size": 57344,
+          "sha256": "381d302e3df102bb3f46986aeabb06c68c93d46f09c71318fe222b284db4feb4"
+        },
+        "Xtras/SWA Import Export.x32": {
+          "size": 45056,
+          "sha256": "1b12086a1b932ac816f9d468909cac9b72c4a2353dab098e1468316815656943"
+        },
+        "Xtras/SWACnvrt.x32": {
+          "size": 208896,
+          "sha256": "677fe29e7f4406661aa83ddf9129e1446852375625e812c9b50be5e7f9704b0a"
+        },
+        "Xtras/SWADCmpr.x32": {
+          "size": 69632,
+          "sha256": "dd75853f47a8930b523a19842e1391e10a81aabb4baa56ece6fc0e476b2d9aea"
+        },
+        "Xtras/SWAOpt.x32": {
+          "size": 73728,
+          "sha256": "7652f87ef966f0e2a1f2769a0ea0ea6f823af49eec05f52b43c67c6958a5e24d"
+        },
+        "Xtras/SWAStrm.x32": {
+          "size": 57344,
+          "sha256": "640d25f863fa96f122d620539a324ce686c50b44fb379bfe6abacc9d2c488d69"
+        },
+        "Xtras/Script Agent.x32": {
+          "size": 24576,
+          "sha256": "b2ea044b2c4097ae84dcc222fe80ed9373d74458a1aff6a4b111ddba834fae77"
+        },
+        "Xtras/Shockwave 3D Asset.x32": {
+          "size": 1687552,
+          "sha256": "0f8d4e79fb2e269094602e5cda43d7e32d7ac0975ab22ed43ec752a47fac57bd"
+        },
+        "Xtras/Sound Control.x32": {
+          "size": 49152,
+          "sha256": "21d6ac95dd0d01e2c0e962d95489146267f1ee373e0c3e373b54e42f64a38407"
+        },
+        "Xtras/Sound Import Export.x32": {
+          "size": 90112,
+          "sha256": "acde6612c400333829cf94f5c00c7acf24224b34f2e304444a6489e27e600312"
+        },
+        "Xtras/Speech.x32": {
+          "size": 53248,
+          "sha256": "0d4ea2badd5057cf7f4d26220007de72cf37198624c66add8afcd581ef6bd1ab"
+        },
+        "Xtras/Squish.x32": {
+          "size": 49152,
+          "sha256": "c1cbcd5644c0762b55842be515abe65e5f5b945dead7f8051964e4b7c594ad60"
+        },
+        "Xtras/Sun AU Import Export.x32": {
+          "size": 36864,
+          "sha256": "c4bafa96c0cbe4f4db5bd8a19dc3ac8d556ac5dba6c1bb9ef29176d22bcce840"
+        },
+        "Xtras/SwaCmpr.x32": {
+          "size": 192512,
+          "sha256": "b30d188d9bf2d6b25814dac9bb78a7c351e39fa8064ca6ab8067c602124a4246"
+        },
+        "Xtras/TIFF Import Export.x32": {
+          "size": 213504,
+          "sha256": "03de19a7b90552d473824798c7b716432619ba2c02cb5a8772624413f6292766"
+        },
+        "Xtras/Targa Import Export.x32": {
+          "size": 37376,
+          "sha256": "d4840ef67334f6e9181417cce1057bd53821d7f4c49daed98bfd7142870791c3"
+        },
+        "Xtras/Text Asset.x32": {
+          "size": 94208,
+          "sha256": "db22d1b3d3734d6c3e5535d3f5b0f25aa7e8cfd9cdf875828b5edb6e43304be8"
+        },
+        "Xtras/TextAuth.x32": {
+          "size": 90112,
+          "sha256": "38d356cb8c5529be979f7fbae233537e8960c901b7c62499d7b67309d7dfaa96"
+        },
+        "Xtras/TextXtra.x32": {
+          "size": 344064,
+          "sha256": "79b5b98ea135e97749e1317d576918185ecb32d05a959539fd3d4e86d9a14231"
+        },
+        "Xtras/UIHelper.x32": {
+          "size": 45056,
+          "sha256": "e57975d7c82e74fed1a7c2c3d90e25be2bad646507a620647550169bd3d5a5e8"
+        },
+        "Xtras/UnzipXtra.x32": {
+          "size": 102400,
+          "sha256": "791d6dbffe6fc62dce94e9aaa5d67d2ddcefef6faeaac801f10c6690006ad01d"
+        },
+        "Xtras/Vector Editor Xtra.x32": {
+          "size": 372736,
+          "sha256": "c8320f96e693e70d27538c7dde200f10b4b453a90f65314dc4c9ab00a9ecc36a"
+        },
+        "Xtras/Windows Media Asset.x32": {
+          "size": 90112,
+          "sha256": "5b9bb177523de09a87820dca8e1657ff51caf5117572b95420dddffede909daa"
+        },
+        "Xtras/Windows Media Auth.x32": {
+          "size": 57344,
+          "sha256": "2d1690a65e76fc14326fcf408bf029b7ce5b2c27750d70f7ed6c9325e83d9943"
+        },
+        "Xtras/Wintdist.exe": {
+          "size": 401760,
+          "sha256": "36c2f9a8d4c82b5f5a95617d02e550792428f99813ef945f5c9a8238b083d48d"
+        },
+        "Xtras/XMLParser.x32": {
+          "size": 167936,
+          "sha256": "56e16c094491549b1a8166838cebab9852a612469b9b2d0fc1d141d2dbffedbd"
+        },
+        "Xtras/ZipXtra.x32": {
+          "size": 45056,
+          "sha256": "8c894adbfa32f8e07c511c1dd27b3bd787057c3f7dfdc352ea58191ba8d607ee"
+        },
+        "Xtras/download/MacromediaInc/FontAsset/Font Asset.x32": {
+          "size": 65536,
+          "sha256": "7fedfb95e4e1bdee8717572e42664ed9df8b9c9c620056b3dd8fd62f5157b48a"
+        },
+        "Xtras/download/MutationLabsInc/Enhancerw32/Enhancer.x32": {
+          "size": 94208,
+          "sha256": "35cb67c23676f6ba55d735b9d041a00e247a7cbf81bff4f8df33a7792ce20e2c"
+        },
+        "Xtras/ement/Flash Asset/Flash Asset Options.x32": {
+          "size": 139264,
+          "sha256": "d776b755116024df0dde0163200c24ff32ed79d11d72eecfb221907b3a7d183d"
+        },
+        "Xtras/ement/Flash Asset/Flash Asset.x32": {
+          "size": 1597440,
+          "sha256": "0b8985f2ccabd95913a1673d745ab76716e6e2333b93f3ff47a3c28135e593ab"
+        },
+        "Xtras/ement/QT/Qt6Asset.x32": {
+          "size": 122880,
+          "sha256": "004180c0cfc2774297b7e5da8b7ac853607c838e6bfe11247f225a5b9f9f0e96"
+        },
+        "Xtras/mmpsf32.dll": {
+          "size": 6656,
+          "sha256": "94b5b9fedea93d77db8faa000c23f61484d079365bb1e72000d7ac43809c9617"
+        },
+        "Xtras/romix.x32": {
+          "size": 53248,
+          "sha256": "d94771ef4b855f286715f087c696df82b5b7396f696911aa13d2dc0605948c17"
+        },
+        "dgVoodoo.conf": {
+          "size": 1240,
+          "sha256": "025e88b9a15283d011fdcf4bd912166efc0dbfa93c7a20d420d295f39907b581"
+        },
+        "game.dir": {
+          "size": 7431851,
+          "sha256": "73b5bc4e2e57e35abc839eb1a1152d88cb7405be60ee9a7ab7b0748be5a375b5"
+        },
+        "gamewrapper.dir": {
+          "size": 28910,
+          "sha256": "a29c151cf5046692df98e27aa51695414324004d4443a79c83738290b52c3f89"
+        },
+        "msvcrt.dll": {
+          "size": 266293,
+          "sha256": "d4287ab5e4988dfe99bd54243d50dbe8744094f11fe5f9809a1a6fb9728c2124"
+        }
+      }
+    }
+  },
+  "builds": {
+    "v42": {
+      "inputs": [
+        "v39"
+      ],
+      "game_sha256": "b78e407798a1f7fbd32c7bae647572ace73fb5542de0ca11e0444024076d72bd",
+      "files": {
+        "Dirapi.dll": {
+          "size": 1499136,
+          "sha256": "cc79cec2409170223bee77272c39caf25277cb40f999070235c8ca8e5011f83b"
+        },
+        "FixFullscreen_v18.ps1": {
+          "size": 9013,
+          "sha256": "2ce824860dfdfb30ba0ea57008ed9f584f0ddeea7c64b42c4bddd35aa7f07adf"
+        },
+        "Iml32.dll": {
+          "size": 614400,
+          "sha256": "0ae5288fb41d9e58ad48600e6abe147bb7fe8ae850a490a3ec05fab9b9bd17e4"
+        },
+        "Launch Redline Rumble 4K 60FPS AA.cmd": {
+          "size": 583,
+          "sha256": "1cd8f1f929ce84fb5c40b492bb3c6e54033bdadef54516dd53de03807e8632a7"
+        },
+        "Proj.dll": {
+          "size": 151552,
+          "sha256": "43dd597efcfad738bfaf1275adf8c41480118910cc88f78b5e857c8b39d4b655"
+        },
+        "Projector.exe": {
+          "size": 81920,
+          "sha256": "1b0a490e014044125febf056bbc9fab0b73f27ac6de193acf4cd6d4100eac549"
+        },
+        "Projector.ini": {
+          "size": 15701,
+          "sha256": "0c6514823f34ef8fc896e1d157927e6aa521d9880b7ff7a2949c082e57a2fbae"
+        },
+        "README v42.txt": {
+          "size": 1647,
+          "sha256": "e7e67802ed482b145a709510f4e4f4864b6aa506e25fba3a632ce48a207c7be8"
+        },
+        "Setup dgVoodoo2 2.87.5.ps1": {
+          "size": 1297,
+          "sha256": "12fa4c0da6d5f164f915b4964ded4991db5fdc6a538e7ffb24e8ab97a7c5154f"
+        },
+        "Xtras/3DAuth.x32": {
+          "size": 81920,
+          "sha256": "e7fd471fe67e17b68eb66fb3c107a577ee064d87073145b2802db998af4c7aba"
+        },
+        "Xtras/AVI Agent.x32": {
+          "size": 24576,
+          "sha256": "ef406c614cff0d34b3199150904adefce6984ed2b9e32ea9ec884817b103eefb"
+        },
+        "Xtras/ActXPriv.x32": {
+          "size": 204800,
+          "sha256": "da246aee1879c80f5ee287d9a435321394d9d7e9d5ea5dac3de61302d54a6ab1"
+        },
+        "Xtras/ActiveX.hlp": {
+          "size": 40215,
+          "sha256": "3bc7173ec5d2e3d7470db92cca371610bdb51a9995b5ee4027a4824f5dca183c"
+        },
+        "Xtras/ActiveX.x32": {
+          "size": 122880,
+          "sha256": "cdabba7e77bca296eb07aa57aab251d83dd51dabb753fdf9b5d0821f0d7a35ca"
+        },
+        "Xtras/Actor Control.x32": {
+          "size": 61440,
+          "sha256": "871759554a3ce8ade8525af9a6b3c54ac6e31371844bd13062dcbfb8c81eab0f"
+        },
+        "Xtras/Animated GIF Asset.x32": {
+          "size": 40960,
+          "sha256": "c11599d784f05f06f1839f70dc93d6e7930aa59702a353ff3683d96546af3f97"
+        },
+        "Xtras/Animated GIF Options.x32": {
+          "size": 90112,
+          "sha256": "57ce2677d557ef9c9d8a1539c8d43bd8df939331b2dd9fabbfe149618bdc7027"
+        },
+        "Xtras/Aprxdist.exe": {
+          "size": 158560,
+          "sha256": "ee193f367d8da5ce7b6cc9b1576f7a5376b81641cb20662a4215457b527a1fb9"
+        },
+        "Xtras/Axdist.exe": {
+          "size": 803680,
+          "sha256": "c1e64632d21d75eb14eb17aa745d335f2b406b3a884870ce9d6a554cd69d26e7"
+        },
+        "Xtras/BMP Agent.x32": {
+          "size": 24576,
+          "sha256": "d8ee116210dd2c9f993551b69c580877f71c85624e7b15e6e1b7580c6936db79"
+        },
+        "Xtras/BitdReader.x32": {
+          "size": 28672,
+          "sha256": "cac83fe3f0347d9afcb70a8c4761e0a122140c00476c3bc6dcdc3ab87f655e21"
+        },
+        "Xtras/Cursor Asset.x32": {
+          "size": 69632,
+          "sha256": "c85034539f78ebd2a4912f36a22282a861e940f9f9794eb1245f4c891f530cd1"
+        },
+        "Xtras/Cursor Options.x32": {
+          "size": 106496,
+          "sha256": "67504f54e8cc4a512b91ffd7a172539c630000790fdfabaa1fd1788497bb1a3f"
+        },
+        "Xtras/DVD Asset.x32": {
+          "size": 81920,
+          "sha256": "9927fe65fd6393c3f79cd06bd46affb2495a695c61222e57601e9e1a04685260"
+        },
+        "Xtras/DVD Authoring.x32": {
+          "size": 53248,
+          "sha256": "24665a3deb8252479ead66687150a6b8c765e234ca64c31d47ac0c6121357a16"
+        },
+        "Xtras/DirectSound.x32": {
+          "size": 32768,
+          "sha256": "d8ca89c97177464c00323f9ad3e5fd95353ce093706c559dfb63a8a535ab3dad"
+        },
+        "Xtras/Dsbl_plg.txt": {
+          "size": 598,
+          "sha256": "9537d56fd5eda75d7cf9a35a72e412a56c4ec8d3490bf068f429478c1d7628eb"
+        },
+        "Xtras/FileIo.x32": {
+          "size": 40960,
+          "sha256": "0f0a616518642f786974024866830a6902ccdac8223e9dcc4a555066fa608659"
+        },
+        "Xtras/Fireworks Import.x32": {
+          "size": 98304,
+          "sha256": "63a543bb6cdc03aca8641474460e406146b555052d1de3df90fba1d228fb3358"
+        },
+        "Xtras/Flash Agent.x32": {
+          "size": 24576,
+          "sha256": "3b983abec73d75952bbb9b1191e0a6f2e1b7f1f396afa07fc40651d69b4030c7"
+        },
+        "Xtras/Font Asset Dialog.x32": {
+          "size": 122880,
+          "sha256": "fdf214a8dca0ddfdd8307c5111aa6692f703f20f8c9f538df136115db0fba579"
+        },
+        "Xtras/Font Asset.x32": {
+          "size": 65536,
+          "sha256": "cec9109f1b022555e12459a932f77d21cc00bcc95e9c72cd0966e41c14294e3e"
+        },
+        "Xtras/Font Xtra.x32": {
+          "size": 278528,
+          "sha256": "36cf1efec70e9fcd88f44c964ea95c37353249cbbe331999a8afb11f7e10813a"
+        },
+        "Xtras/GIF Agent.x32": {
+          "size": 24576,
+          "sha256": "b2fc4a3c3773ec64307ce19251d9d33216f2bec3097b5d28d36e9246cacb6de0"
+        },
+        "Xtras/Havok.x32": {
+          "size": 573440,
+          "sha256": "90694ddbad361fbfdd7842f81bab842001d7ef1ca3e8eb5a94ac6c08538638eb"
+        },
+        "Xtras/INetURL.x32": {
+          "size": 45056,
+          "sha256": "b44d69a708b372858b14efbfec5022ec7ebc4e0d727f7437528cc5827fa4ac78"
+        },
+        "Xtras/Image Translator Helper.x32": {
+          "size": 45056,
+          "sha256": "10e620744d21ea3c6ebf95db537309eba798eb506dd88d41557fe2509b15b736"
+        },
+        "Xtras/JPEG Agent.x32": {
+          "size": 24576,
+          "sha256": "2de8bb570ea570db3bce6c2161fe8217d5a32adb7599eda7ab6ef226fa526be9"
+        },
+        "Xtras/JPEG Export.x32": {
+          "size": 69632,
+          "sha256": "2c4f0639f238159df6148dbaeee1bb24a9b1c54265fe478f77c67e6b83c64322"
+        },
+        "Xtras/LZComprs.x32": {
+          "size": 49152,
+          "sha256": "ff6616c7d419eb8925a338ea704be271e6564d8fb99f86df32eac6701676143b"
+        },
+        "Xtras/LeechProtectionRemovalHelp.x32": {
+          "size": 335872,
+          "sha256": "83be4c0485fd89a759393278ea9842fc58a1997ea2a4b4f87ad20834adfcdc3e"
+        },
+        "Xtras/MPEG 3 Import Export.x32": {
+          "size": 77824,
+          "sha256": "76cfd15157304ffe4ab92756887bfaf98b3fe264dc0273002aa42baadcf61d27"
+        },
+        "Xtras/MacPaint Import.x32": {
+          "size": 28672,
+          "sha256": "e77b62460c1bfaa53c547275affb5fdda0da54f738ee222e00b6334e70ec6343"
+        },
+        "Xtras/Mix Services.x32": {
+          "size": 98304,
+          "sha256": "872495d4643dc49f3e63974c5297ab789231d9b68405373b76016efdbafd928d"
+        },
+        "Xtras/Mui Dialog.x32": {
+          "size": 282624,
+          "sha256": "67dafbde8966b6da4eb894608cacdeb276788148d03609611536078b766638c0"
+        },
+        "Xtras/NetFile.x32": {
+          "size": 53248,
+          "sha256": "437b4b0729dfd5726f9a85cc228481d6c1f7aecfb5bfbe6b83a9c252fb4498d8"
+        },
+        "Xtras/NetLingo.x32": {
+          "size": 49152,
+          "sha256": "436d584756d072a623f436d8c67c3c2295dd75e1dfc42cd9b0c498fb3e94f260"
+        },
+        "Xtras/PICT Agent.x32": {
+          "size": 24576,
+          "sha256": "103b84a420b170f7ef1b21bbb6975ba91bda895679663f5a661607f50077ef2f"
+        },
+        "Xtras/PNG Import Export.x32": {
+          "size": 143360,
+          "sha256": "aafe50032203d990a3eb391dde53c60fed41315f4e2f168814f09bb7748606c7"
+        },
+        "Xtras/Palette Import.x32": {
+          "size": 28672,
+          "sha256": "9d26aab6a9d58eb34a908585d11f722ae0d608172e2000a52e9f3be7ca0cdd08"
+        },
+        "Xtras/Photoshop 3.0 Import.x32": {
+          "size": 36864,
+          "sha256": "5d8d33c7d138982d8154feca41b4705d5f647264dc863ebd593a370a456e9cc5"
+        },
+        "Xtras/Photoshop CLUT Import.x32": {
+          "size": 24576,
+          "sha256": "2293315a459b490d054e355aabbe49deca497732630001d745bac5849f81ce47"
+        },
+        "Xtras/Pshopflt.x32": {
+          "size": 135168,
+          "sha256": "c6d3bf299098825ec38c050320b5dfe582ccff4ab8d27de63562bf064dba5a46"
+        },
+        "Xtras/QTAuth.x32": {
+          "size": 147456,
+          "sha256": "e5d02986f18b7253514a70aadef1ee4c58e28c37b248afccdc9061b57ae47cd0"
+        },
+        "Xtras/QTExport.x32": {
+          "size": 167936,
+          "sha256": "548e0e34e9491c62a2a08823febb315d46f1d59ce22d6e3effb6c43bb7093916"
+        },
+        "Xtras/QuickTime Agent.x32": {
+          "size": 24576,
+          "sha256": "e2dad12a00300146b661175e15b3b509de9f7ab6299e9e5154a6eedb6f2fe46a"
+        },
+        "Xtras/RealMedia Asset.x32": {
+          "size": 77824,
+          "sha256": "593b4191da3d41b8bfd9189cff2126f08ce3b60a958fb0810eab8330ffb71fe7"
+        },
+        "Xtras/RealMedia Authoring.x32": {
+          "size": 57344,
+          "sha256": "381d302e3df102bb3f46986aeabb06c68c93d46f09c71318fe222b284db4feb4"
+        },
+        "Xtras/SWA Import Export.x32": {
+          "size": 45056,
+          "sha256": "1b12086a1b932ac816f9d468909cac9b72c4a2353dab098e1468316815656943"
+        },
+        "Xtras/SWACnvrt.x32": {
+          "size": 208896,
+          "sha256": "677fe29e7f4406661aa83ddf9129e1446852375625e812c9b50be5e7f9704b0a"
+        },
+        "Xtras/SWADCmpr.x32": {
+          "size": 69632,
+          "sha256": "dd75853f47a8930b523a19842e1391e10a81aabb4baa56ece6fc0e476b2d9aea"
+        },
+        "Xtras/SWAOpt.x32": {
+          "size": 73728,
+          "sha256": "7652f87ef966f0e2a1f2769a0ea0ea6f823af49eec05f52b43c67c6958a5e24d"
+        },
+        "Xtras/SWAStrm.x32": {
+          "size": 57344,
+          "sha256": "640d25f863fa96f122d620539a324ce686c50b44fb379bfe6abacc9d2c488d69"
+        },
+        "Xtras/Script Agent.x32": {
+          "size": 24576,
+          "sha256": "b2ea044b2c4097ae84dcc222fe80ed9373d74458a1aff6a4b111ddba834fae77"
+        },
+        "Xtras/Shockwave 3D Asset.x32": {
+          "size": 1687552,
+          "sha256": "0f8d4e79fb2e269094602e5cda43d7e32d7ac0975ab22ed43ec752a47fac57bd"
+        },
+        "Xtras/Sound Control.x32": {
+          "size": 49152,
+          "sha256": "21d6ac95dd0d01e2c0e962d95489146267f1ee373e0c3e373b54e42f64a38407"
+        },
+        "Xtras/Sound Import Export.x32": {
+          "size": 90112,
+          "sha256": "acde6612c400333829cf94f5c00c7acf24224b34f2e304444a6489e27e600312"
+        },
+        "Xtras/Speech.x32": {
+          "size": 53248,
+          "sha256": "0d4ea2badd5057cf7f4d26220007de72cf37198624c66add8afcd581ef6bd1ab"
+        },
+        "Xtras/Squish.x32": {
+          "size": 49152,
+          "sha256": "c1cbcd5644c0762b55842be515abe65e5f5b945dead7f8051964e4b7c594ad60"
+        },
+        "Xtras/Sun AU Import Export.x32": {
+          "size": 36864,
+          "sha256": "c4bafa96c0cbe4f4db5bd8a19dc3ac8d556ac5dba6c1bb9ef29176d22bcce840"
+        },
+        "Xtras/SwaCmpr.x32": {
+          "size": 192512,
+          "sha256": "b30d188d9bf2d6b25814dac9bb78a7c351e39fa8064ca6ab8067c602124a4246"
+        },
+        "Xtras/TIFF Import Export.x32": {
+          "size": 213504,
+          "sha256": "03de19a7b90552d473824798c7b716432619ba2c02cb5a8772624413f6292766"
+        },
+        "Xtras/Targa Import Export.x32": {
+          "size": 37376,
+          "sha256": "d4840ef67334f6e9181417cce1057bd53821d7f4c49daed98bfd7142870791c3"
+        },
+        "Xtras/Text Asset.x32": {
+          "size": 94208,
+          "sha256": "db22d1b3d3734d6c3e5535d3f5b0f25aa7e8cfd9cdf875828b5edb6e43304be8"
+        },
+        "Xtras/TextAuth.x32": {
+          "size": 90112,
+          "sha256": "38d356cb8c5529be979f7fbae233537e8960c901b7c62499d7b67309d7dfaa96"
+        },
+        "Xtras/TextXtra.x32": {
+          "size": 344064,
+          "sha256": "79b5b98ea135e97749e1317d576918185ecb32d05a959539fd3d4e86d9a14231"
+        },
+        "Xtras/UIHelper.x32": {
+          "size": 45056,
+          "sha256": "e57975d7c82e74fed1a7c2c3d90e25be2bad646507a620647550169bd3d5a5e8"
+        },
+        "Xtras/UnzipXtra.x32": {
+          "size": 102400,
+          "sha256": "791d6dbffe6fc62dce94e9aaa5d67d2ddcefef6faeaac801f10c6690006ad01d"
+        },
+        "Xtras/Vector Editor Xtra.x32": {
+          "size": 372736,
+          "sha256": "c8320f96e693e70d27538c7dde200f10b4b453a90f65314dc4c9ab00a9ecc36a"
+        },
+        "Xtras/Windows Media Asset.x32": {
+          "size": 90112,
+          "sha256": "5b9bb177523de09a87820dca8e1657ff51caf5117572b95420dddffede909daa"
+        },
+        "Xtras/Windows Media Auth.x32": {
+          "size": 57344,
+          "sha256": "2d1690a65e76fc14326fcf408bf029b7ce5b2c27750d70f7ed6c9325e83d9943"
+        },
+        "Xtras/Wintdist.exe": {
+          "size": 401760,
+          "sha256": "36c2f9a8d4c82b5f5a95617d02e550792428f99813ef945f5c9a8238b083d48d"
+        },
+        "Xtras/XMLParser.x32": {
+          "size": 167936,
+          "sha256": "56e16c094491549b1a8166838cebab9852a612469b9b2d0fc1d141d2dbffedbd"
+        },
+        "Xtras/ZipXtra.x32": {
+          "size": 45056,
+          "sha256": "8c894adbfa32f8e07c511c1dd27b3bd787057c3f7dfdc352ea58191ba8d607ee"
+        },
+        "Xtras/download/MacromediaInc/FontAsset/Font Asset.x32": {
+          "size": 65536,
+          "sha256": "7fedfb95e4e1bdee8717572e42664ed9df8b9c9c620056b3dd8fd62f5157b48a"
+        },
+        "Xtras/download/MutationLabsInc/Enhancerw32/Enhancer.x32": {
+          "size": 94208,
+          "sha256": "35cb67c23676f6ba55d735b9d041a00e247a7cbf81bff4f8df33a7792ce20e2c"
+        },
+        "Xtras/ement/Flash Asset/Flash Asset Options.x32": {
+          "size": 139264,
+          "sha256": "d776b755116024df0dde0163200c24ff32ed79d11d72eecfb221907b3a7d183d"
+        },
+        "Xtras/ement/Flash Asset/Flash Asset.x32": {
+          "size": 1597440,
+          "sha256": "0b8985f2ccabd95913a1673d745ab76716e6e2333b93f3ff47a3c28135e593ab"
+        },
+        "Xtras/ement/QT/Qt6Asset.x32": {
+          "size": 122880,
+          "sha256": "004180c0cfc2774297b7e5da8b7ac853607c838e6bfe11247f225a5b9f9f0e96"
+        },
+        "Xtras/mmpsf32.dll": {
+          "size": 6656,
+          "sha256": "94b5b9fedea93d77db8faa000c23f61484d079365bb1e72000d7ac43809c9617"
+        },
+        "Xtras/romix.x32": {
+          "size": 53248,
+          "sha256": "d94771ef4b855f286715f087c696df82b5b7396f696911aa13d2dc0605948c17"
+        },
+        "dgVoodoo.conf": {
+          "size": 1240,
+          "sha256": "025e88b9a15283d011fdcf4bd912166efc0dbfa93c7a20d420d295f39907b581"
+        },
+        "game.dir": {
+          "size": 7431851,
+          "sha256": "b78e407798a1f7fbd32c7bae647572ace73fb5542de0ca11e0444024076d72bd"
+        },
+        "gamewrapper.dir": {
+          "size": 28910,
+          "sha256": "a29c151cf5046692df98e27aa51695414324004d4443a79c83738290b52c3f89"
+        },
+        "msvcrt.dll": {
+          "size": 266293,
+          "sha256": "d4287ab5e4988dfe99bd54243d50dbe8744094f11fe5f9809a1a6fb9728c2124"
+        }
+      }
+    },
+    "v43": {
+      "inputs": [
+        "v28",
+        "v36"
+      ],
+      "game_sha256": "d53ac454b425135b6802434b49f77dfb70c1674589be038a50dc47f64a760cc2",
+      "files": {
+        "Dirapi.dll": {
+          "size": 1499136,
+          "sha256": "cc79cec2409170223bee77272c39caf25277cb40f999070235c8ca8e5011f83b"
+        },
+        "FixFullscreen_v18.ps1": {
+          "size": 9013,
+          "sha256": "2ce824860dfdfb30ba0ea57008ed9f584f0ddeea7c64b42c4bddd35aa7f07adf"
+        },
+        "Iml32.dll": {
+          "size": 614400,
+          "sha256": "0ae5288fb41d9e58ad48600e6abe147bb7fe8ae850a490a3ec05fab9b9bd17e4"
+        },
+        "Launch Redline Rumble 4K 60FPS AA.cmd": {
+          "size": 583,
+          "sha256": "1cd8f1f929ce84fb5c40b492bb3c6e54033bdadef54516dd53de03807e8632a7"
+        },
+        "Proj.dll": {
+          "size": 151552,
+          "sha256": "43dd597efcfad738bfaf1275adf8c41480118910cc88f78b5e857c8b39d4b655"
+        },
+        "Projector.exe": {
+          "size": 81920,
+          "sha256": "1b0a490e014044125febf056bbc9fab0b73f27ac6de193acf4cd6d4100eac549"
+        },
+        "Projector.ini": {
+          "size": 15701,
+          "sha256": "0c6514823f34ef8fc896e1d157927e6aa521d9880b7ff7a2949c082e57a2fbae"
+        },
+        "README v43.txt": {
+          "size": 1515,
+          "sha256": "9e618656c0b8fc76d8ea7c5f6350a95279b92c5e3b7d9a515900010f2d518197"
+        },
+        "Setup dgVoodoo2 2.87.5.ps1": {
+          "size": 1297,
+          "sha256": "12fa4c0da6d5f164f915b4964ded4991db5fdc6a538e7ffb24e8ab97a7c5154f"
+        },
+        "Xtras/3DAuth.x32": {
+          "size": 81920,
+          "sha256": "e7fd471fe67e17b68eb66fb3c107a577ee064d87073145b2802db998af4c7aba"
+        },
+        "Xtras/AVI Agent.x32": {
+          "size": 24576,
+          "sha256": "ef406c614cff0d34b3199150904adefce6984ed2b9e32ea9ec884817b103eefb"
+        },
+        "Xtras/ActXPriv.x32": {
+          "size": 204800,
+          "sha256": "da246aee1879c80f5ee287d9a435321394d9d7e9d5ea5dac3de61302d54a6ab1"
+        },
+        "Xtras/ActiveX.hlp": {
+          "size": 40215,
+          "sha256": "3bc7173ec5d2e3d7470db92cca371610bdb51a9995b5ee4027a4824f5dca183c"
+        },
+        "Xtras/ActiveX.x32": {
+          "size": 122880,
+          "sha256": "cdabba7e77bca296eb07aa57aab251d83dd51dabb753fdf9b5d0821f0d7a35ca"
+        },
+        "Xtras/Actor Control.x32": {
+          "size": 61440,
+          "sha256": "871759554a3ce8ade8525af9a6b3c54ac6e31371844bd13062dcbfb8c81eab0f"
+        },
+        "Xtras/Animated GIF Asset.x32": {
+          "size": 40960,
+          "sha256": "c11599d784f05f06f1839f70dc93d6e7930aa59702a353ff3683d96546af3f97"
+        },
+        "Xtras/Animated GIF Options.x32": {
+          "size": 90112,
+          "sha256": "57ce2677d557ef9c9d8a1539c8d43bd8df939331b2dd9fabbfe149618bdc7027"
+        },
+        "Xtras/Aprxdist.exe": {
+          "size": 158560,
+          "sha256": "ee193f367d8da5ce7b6cc9b1576f7a5376b81641cb20662a4215457b527a1fb9"
+        },
+        "Xtras/Axdist.exe": {
+          "size": 803680,
+          "sha256": "c1e64632d21d75eb14eb17aa745d335f2b406b3a884870ce9d6a554cd69d26e7"
+        },
+        "Xtras/BMP Agent.x32": {
+          "size": 24576,
+          "sha256": "d8ee116210dd2c9f993551b69c580877f71c85624e7b15e6e1b7580c6936db79"
+        },
+        "Xtras/BitdReader.x32": {
+          "size": 28672,
+          "sha256": "cac83fe3f0347d9afcb70a8c4761e0a122140c00476c3bc6dcdc3ab87f655e21"
+        },
+        "Xtras/Cursor Asset.x32": {
+          "size": 69632,
+          "sha256": "c85034539f78ebd2a4912f36a22282a861e940f9f9794eb1245f4c891f530cd1"
+        },
+        "Xtras/Cursor Options.x32": {
+          "size": 106496,
+          "sha256": "67504f54e8cc4a512b91ffd7a172539c630000790fdfabaa1fd1788497bb1a3f"
+        },
+        "Xtras/DVD Asset.x32": {
+          "size": 81920,
+          "sha256": "9927fe65fd6393c3f79cd06bd46affb2495a695c61222e57601e9e1a04685260"
+        },
+        "Xtras/DVD Authoring.x32": {
+          "size": 53248,
+          "sha256": "24665a3deb8252479ead66687150a6b8c765e234ca64c31d47ac0c6121357a16"
+        },
+        "Xtras/DirectSound.x32": {
+          "size": 32768,
+          "sha256": "d8ca89c97177464c00323f9ad3e5fd95353ce093706c559dfb63a8a535ab3dad"
+        },
+        "Xtras/Dsbl_plg.txt": {
+          "size": 598,
+          "sha256": "9537d56fd5eda75d7cf9a35a72e412a56c4ec8d3490bf068f429478c1d7628eb"
+        },
+        "Xtras/FileIo.x32": {
+          "size": 40960,
+          "sha256": "0f0a616518642f786974024866830a6902ccdac8223e9dcc4a555066fa608659"
+        },
+        "Xtras/Fireworks Import.x32": {
+          "size": 98304,
+          "sha256": "63a543bb6cdc03aca8641474460e406146b555052d1de3df90fba1d228fb3358"
+        },
+        "Xtras/Flash Agent.x32": {
+          "size": 24576,
+          "sha256": "3b983abec73d75952bbb9b1191e0a6f2e1b7f1f396afa07fc40651d69b4030c7"
+        },
+        "Xtras/Font Asset Dialog.x32": {
+          "size": 122880,
+          "sha256": "fdf214a8dca0ddfdd8307c5111aa6692f703f20f8c9f538df136115db0fba579"
+        },
+        "Xtras/Font Asset.x32": {
+          "size": 65536,
+          "sha256": "cec9109f1b022555e12459a932f77d21cc00bcc95e9c72cd0966e41c14294e3e"
+        },
+        "Xtras/Font Xtra.x32": {
+          "size": 278528,
+          "sha256": "36cf1efec70e9fcd88f44c964ea95c37353249cbbe331999a8afb11f7e10813a"
+        },
+        "Xtras/GIF Agent.x32": {
+          "size": 24576,
+          "sha256": "b2fc4a3c3773ec64307ce19251d9d33216f2bec3097b5d28d36e9246cacb6de0"
+        },
+        "Xtras/Havok.x32": {
+          "size": 573440,
+          "sha256": "90694ddbad361fbfdd7842f81bab842001d7ef1ca3e8eb5a94ac6c08538638eb"
+        },
+        "Xtras/INetURL.x32": {
+          "size": 45056,
+          "sha256": "b44d69a708b372858b14efbfec5022ec7ebc4e0d727f7437528cc5827fa4ac78"
+        },
+        "Xtras/Image Translator Helper.x32": {
+          "size": 45056,
+          "sha256": "10e620744d21ea3c6ebf95db537309eba798eb506dd88d41557fe2509b15b736"
+        },
+        "Xtras/JPEG Agent.x32": {
+          "size": 24576,
+          "sha256": "2de8bb570ea570db3bce6c2161fe8217d5a32adb7599eda7ab6ef226fa526be9"
+        },
+        "Xtras/JPEG Export.x32": {
+          "size": 69632,
+          "sha256": "2c4f0639f238159df6148dbaeee1bb24a9b1c54265fe478f77c67e6b83c64322"
+        },
+        "Xtras/LZComprs.x32": {
+          "size": 49152,
+          "sha256": "ff6616c7d419eb8925a338ea704be271e6564d8fb99f86df32eac6701676143b"
+        },
+        "Xtras/LeechProtectionRemovalHelp.x32": {
+          "size": 335872,
+          "sha256": "83be4c0485fd89a759393278ea9842fc58a1997ea2a4b4f87ad20834adfcdc3e"
+        },
+        "Xtras/MPEG 3 Import Export.x32": {
+          "size": 77824,
+          "sha256": "76cfd15157304ffe4ab92756887bfaf98b3fe264dc0273002aa42baadcf61d27"
+        },
+        "Xtras/MacPaint Import.x32": {
+          "size": 28672,
+          "sha256": "e77b62460c1bfaa53c547275affb5fdda0da54f738ee222e00b6334e70ec6343"
+        },
+        "Xtras/Mix Services.x32": {
+          "size": 98304,
+          "sha256": "872495d4643dc49f3e63974c5297ab789231d9b68405373b76016efdbafd928d"
+        },
+        "Xtras/Mui Dialog.x32": {
+          "size": 282624,
+          "sha256": "67dafbde8966b6da4eb894608cacdeb276788148d03609611536078b766638c0"
+        },
+        "Xtras/NetFile.x32": {
+          "size": 53248,
+          "sha256": "437b4b0729dfd5726f9a85cc228481d6c1f7aecfb5bfbe6b83a9c252fb4498d8"
+        },
+        "Xtras/NetLingo.x32": {
+          "size": 49152,
+          "sha256": "436d584756d072a623f436d8c67c3c2295dd75e1dfc42cd9b0c498fb3e94f260"
+        },
+        "Xtras/PICT Agent.x32": {
+          "size": 24576,
+          "sha256": "103b84a420b170f7ef1b21bbb6975ba91bda895679663f5a661607f50077ef2f"
+        },
+        "Xtras/PNG Import Export.x32": {
+          "size": 143360,
+          "sha256": "aafe50032203d990a3eb391dde53c60fed41315f4e2f168814f09bb7748606c7"
+        },
+        "Xtras/Palette Import.x32": {
+          "size": 28672,
+          "sha256": "9d26aab6a9d58eb34a908585d11f722ae0d608172e2000a52e9f3be7ca0cdd08"
+        },
+        "Xtras/Photoshop 3.0 Import.x32": {
+          "size": 36864,
+          "sha256": "5d8d33c7d138982d8154feca41b4705d5f647264dc863ebd593a370a456e9cc5"
+        },
+        "Xtras/Photoshop CLUT Import.x32": {
+          "size": 24576,
+          "sha256": "2293315a459b490d054e355aabbe49deca497732630001d745bac5849f81ce47"
+        },
+        "Xtras/Pshopflt.x32": {
+          "size": 135168,
+          "sha256": "c6d3bf299098825ec38c050320b5dfe582ccff4ab8d27de63562bf064dba5a46"
+        },
+        "Xtras/QTAuth.x32": {
+          "size": 147456,
+          "sha256": "e5d02986f18b7253514a70aadef1ee4c58e28c37b248afccdc9061b57ae47cd0"
+        },
+        "Xtras/QTExport.x32": {
+          "size": 167936,
+          "sha256": "548e0e34e9491c62a2a08823febb315d46f1d59ce22d6e3effb6c43bb7093916"
+        },
+        "Xtras/QuickTime Agent.x32": {
+          "size": 24576,
+          "sha256": "e2dad12a00300146b661175e15b3b509de9f7ab6299e9e5154a6eedb6f2fe46a"
+        },
+        "Xtras/RealMedia Asset.x32": {
+          "size": 77824,
+          "sha256": "593b4191da3d41b8bfd9189cff2126f08ce3b60a958fb0810eab8330ffb71fe7"
+        },
+        "Xtras/RealMedia Authoring.x32": {
+          "size": 57344,
+          "sha256": "381d302e3df102bb3f46986aeabb06c68c93d46f09c71318fe222b284db4feb4"
+        },
+        "Xtras/SWA Import Export.x32": {
+          "size": 45056,
+          "sha256": "1b12086a1b932ac816f9d468909cac9b72c4a2353dab098e1468316815656943"
+        },
+        "Xtras/SWACnvrt.x32": {
+          "size": 208896,
+          "sha256": "677fe29e7f4406661aa83ddf9129e1446852375625e812c9b50be5e7f9704b0a"
+        },
+        "Xtras/SWADCmpr.x32": {
+          "size": 69632,
+          "sha256": "dd75853f47a8930b523a19842e1391e10a81aabb4baa56ece6fc0e476b2d9aea"
+        },
+        "Xtras/SWAOpt.x32": {
+          "size": 73728,
+          "sha256": "7652f87ef966f0e2a1f2769a0ea0ea6f823af49eec05f52b43c67c6958a5e24d"
+        },
+        "Xtras/SWAStrm.x32": {
+          "size": 57344,
+          "sha256": "640d25f863fa96f122d620539a324ce686c50b44fb379bfe6abacc9d2c488d69"
+        },
+        "Xtras/Script Agent.x32": {
+          "size": 24576,
+          "sha256": "b2ea044b2c4097ae84dcc222fe80ed9373d74458a1aff6a4b111ddba834fae77"
+        },
+        "Xtras/Shockwave 3D Asset.x32": {
+          "size": 1687552,
+          "sha256": "0f8d4e79fb2e269094602e5cda43d7e32d7ac0975ab22ed43ec752a47fac57bd"
+        },
+        "Xtras/Sound Control.x32": {
+          "size": 49152,
+          "sha256": "21d6ac95dd0d01e2c0e962d95489146267f1ee373e0c3e373b54e42f64a38407"
+        },
+        "Xtras/Sound Import Export.x32": {
+          "size": 90112,
+          "sha256": "acde6612c400333829cf94f5c00c7acf24224b34f2e304444a6489e27e600312"
+        },
+        "Xtras/Speech.x32": {
+          "size": 53248,
+          "sha256": "0d4ea2badd5057cf7f4d26220007de72cf37198624c66add8afcd581ef6bd1ab"
+        },
+        "Xtras/Squish.x32": {
+          "size": 49152,
+          "sha256": "c1cbcd5644c0762b55842be515abe65e5f5b945dead7f8051964e4b7c594ad60"
+        },
+        "Xtras/Sun AU Import Export.x32": {
+          "size": 36864,
+          "sha256": "c4bafa96c0cbe4f4db5bd8a19dc3ac8d556ac5dba6c1bb9ef29176d22bcce840"
+        },
+        "Xtras/SwaCmpr.x32": {
+          "size": 192512,
+          "sha256": "b30d188d9bf2d6b25814dac9bb78a7c351e39fa8064ca6ab8067c602124a4246"
+        },
+        "Xtras/TIFF Import Export.x32": {
+          "size": 213504,
+          "sha256": "03de19a7b90552d473824798c7b716432619ba2c02cb5a8772624413f6292766"
+        },
+        "Xtras/Targa Import Export.x32": {
+          "size": 37376,
+          "sha256": "d4840ef67334f6e9181417cce1057bd53821d7f4c49daed98bfd7142870791c3"
+        },
+        "Xtras/Text Asset.x32": {
+          "size": 94208,
+          "sha256": "db22d1b3d3734d6c3e5535d3f5b0f25aa7e8cfd9cdf875828b5edb6e43304be8"
+        },
+        "Xtras/TextAuth.x32": {
+          "size": 90112,
+          "sha256": "38d356cb8c5529be979f7fbae233537e8960c901b7c62499d7b67309d7dfaa96"
+        },
+        "Xtras/TextXtra.x32": {
+          "size": 344064,
+          "sha256": "79b5b98ea135e97749e1317d576918185ecb32d05a959539fd3d4e86d9a14231"
+        },
+        "Xtras/UIHelper.x32": {
+          "size": 45056,
+          "sha256": "e57975d7c82e74fed1a7c2c3d90e25be2bad646507a620647550169bd3d5a5e8"
+        },
+        "Xtras/UnzipXtra.x32": {
+          "size": 102400,
+          "sha256": "791d6dbffe6fc62dce94e9aaa5d67d2ddcefef6faeaac801f10c6690006ad01d"
+        },
+        "Xtras/Vector Editor Xtra.x32": {
+          "size": 372736,
+          "sha256": "c8320f96e693e70d27538c7dde200f10b4b453a90f65314dc4c9ab00a9ecc36a"
+        },
+        "Xtras/Windows Media Asset.x32": {
+          "size": 90112,
+          "sha256": "5b9bb177523de09a87820dca8e1657ff51caf5117572b95420dddffede909daa"
+        },
+        "Xtras/Windows Media Auth.x32": {
+          "size": 57344,
+          "sha256": "2d1690a65e76fc14326fcf408bf029b7ce5b2c27750d70f7ed6c9325e83d9943"
+        },
+        "Xtras/Wintdist.exe": {
+          "size": 401760,
+          "sha256": "36c2f9a8d4c82b5f5a95617d02e550792428f99813ef945f5c9a8238b083d48d"
+        },
+        "Xtras/XMLParser.x32": {
+          "size": 167936,
+          "sha256": "56e16c094491549b1a8166838cebab9852a612469b9b2d0fc1d141d2dbffedbd"
+        },
+        "Xtras/ZipXtra.x32": {
+          "size": 45056,
+          "sha256": "8c894adbfa32f8e07c511c1dd27b3bd787057c3f7dfdc352ea58191ba8d607ee"
+        },
+        "Xtras/download/MacromediaInc/FontAsset/Font Asset.x32": {
+          "size": 65536,
+          "sha256": "7fedfb95e4e1bdee8717572e42664ed9df8b9c9c620056b3dd8fd62f5157b48a"
+        },
+        "Xtras/download/MutationLabsInc/Enhancerw32/Enhancer.x32": {
+          "size": 94208,
+          "sha256": "35cb67c23676f6ba55d735b9d041a00e247a7cbf81bff4f8df33a7792ce20e2c"
+        },
+        "Xtras/ement/Flash Asset/Flash Asset Options.x32": {
+          "size": 139264,
+          "sha256": "d776b755116024df0dde0163200c24ff32ed79d11d72eecfb221907b3a7d183d"
+        },
+        "Xtras/ement/Flash Asset/Flash Asset.x32": {
+          "size": 1597440,
+          "sha256": "0b8985f2ccabd95913a1673d745ab76716e6e2333b93f3ff47a3c28135e593ab"
+        },
+        "Xtras/ement/QT/Qt6Asset.x32": {
+          "size": 122880,
+          "sha256": "004180c0cfc2774297b7e5da8b7ac853607c838e6bfe11247f225a5b9f9f0e96"
+        },
+        "Xtras/mmpsf32.dll": {
+          "size": 6656,
+          "sha256": "94b5b9fedea93d77db8faa000c23f61484d079365bb1e72000d7ac43809c9617"
+        },
+        "Xtras/romix.x32": {
+          "size": 53248,
+          "sha256": "d94771ef4b855f286715f087c696df82b5b7396f696911aa13d2dc0605948c17"
+        },
+        "dgVoodoo.conf": {
+          "size": 1240,
+          "sha256": "025e88b9a15283d011fdcf4bd912166efc0dbfa93c7a20d420d295f39907b581"
+        },
+        "game.dir": {
+          "size": 7432050,
+          "sha256": "d53ac454b425135b6802434b49f77dfb70c1674589be038a50dc47f64a760cc2"
+        },
+        "gamewrapper.dir": {
+          "size": 28910,
+          "sha256": "a29c151cf5046692df98e27aa51695414324004d4443a79c83738290b52c3f89"
+        },
+        "msvcrt.dll": {
+          "size": 266293,
+          "sha256": "d4287ab5e4988dfe99bd54243d50dbe8744094f11fe5f9809a1a6fb9728c2124"
+        }
+      }
+    }
+  }
+}

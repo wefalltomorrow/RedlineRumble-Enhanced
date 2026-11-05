@@ -71,4 +71,10 @@ Verify `C`, hold/release `B` from both views, switching while `B` is held, passi
 
 ## Distribution
 
-Only scripts, docs and non-proprietary tests are committed here. A redistributable binary patch format and release packaging workflow are future work.
+Only scripts, docs, hashes and non-proprietary tests are committed here. The
+[diagnostic comparison kit](../diagnostics/README.md) packages an allowlisted
+set of source files from a specified Git commit. It validates all files in
+user-owned v28/v36/v39 archives and installs exact v42/v43 outputs into new
+folders. It also records installation hashes for later verification.
+This is diagnostic tooling; native gameplay remains pending and no stable
+GitHub Release has been published.

@@ -38,7 +38,7 @@ These are **patch-building tools**, not a decompilation or the original game's c
 
 No downloadable game executable is included in this repository. Macromedia Director runtime components, the original game, and third-party graphics DLLs belong to their respective owners. The build scripts expect specific historical game snapshots supplied by the user, verified against SHA-256 checks to prevent accidentally patching the wrong version.
 
-See [building instructions](docs/building.md) to reproduce the development build locally. Publicly redistributable patch bundles and a GitHub Release are planned but **not published yet**.
+See [building instructions](docs/building.md) to reproduce the development build locally. The [source-only diagnostic comparison kit](diagnostics/README.md) installs the exact v42/v43 payloads from user-owned historical ZIPs, checking every input and output file. A stable GitHub Release has **not** been published.
 
 ## Controls
 

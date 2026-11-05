@@ -1,0 +1,19 @@
+name: Validate diagnostic comparison kit
+on:
+  push:
+    branches: [tooling/diagnostic-comparison-kit]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  source-kit:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: python -B -m unittest discover -s diagnostics -p "test_*.py" -v
+      - run: python tools/package_diagnostics.py --ref HEAD --out diagnostic-source-kit.zip
