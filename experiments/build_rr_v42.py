@@ -24,6 +24,9 @@ EXPECTED_SITES = (0x582, 0x584, 0x5b4, 0x5cd, 0x5d2, 0x5df,
                   0x5e7, 0x5ea, 0xa80, 0xa85, 0xa92)
 # Ranges reproduced by the historical v39 emitter; offsets in exitFrame.
 HOOK_RANGES = ((0x580, 111), (0xa56, 66))
+# Independent full-handler audit of the hash-locked v39 input found one
+# live stack value at both entries. This is not inferred for arbitrary code.
+HOOK_ENTRY_DEPTH = 1
 NOTES = """Redline Rumble v42 - Local-index correction DIAGNOSTIC
 
 GAMEPLAY NOT YET VERIFIED. v39 remains the full-race-confirmed reference.
@@ -107,48 +110,62 @@ def dead_until_written(code, start, slot):
     return len(seen)
 
 
-def hook_stack_bound(code):
-    """Check hook paths relative to entry depth, not the full handler stack."""
+def hook_stack_bound(code, entry_depth=0):
+    """Return absolute peak, preserving the caller's stack on every path.
+
+    Only the emitted hook subset is supported. Argument markers are tracked
+    in the path state so a jump cannot bypass the marker before a call.
+    Entry depth is supplied by the independent hash-locked handler audit.
+    """
+    if not isinstance(entry_depth, int) or entry_depth < 0:
+        raise ValueError('Invalid hook entry depth')
     decoded = legacy.decode(code, allow_end=True)
     ins = {i['s']: i for i in decoded}
-    previous = {i['s']: p for p, i in zip(decoded, decoded[1:])}
-    todo, seen, peak = [(0, 0)], {}, 0
+    todo, seen, peak = [(0, (), None)], {}, entry_depth
     while todo:
-        pc, depth = todo.pop()
+        pc, stack, marker = todo.pop()
         if pc in seen:
-            if seen[pc] != depth:
-                raise ValueError('Stack depth differs at branch merge')
+            if seen[pc] != (stack, marker):
+                raise ValueError('Stack state differs at branch merge')
             continue
-        seen[pc] = depth
+        seen[pc] = (stack, marker)
         if pc == len(code):
-            if depth:
+            if stack or marker is not None:
                 raise ValueError('Hook exits with a nonempty stack')
             continue
         i = ins[pc]
         op = i['op']
-        if op in (0x41, 0x44, 0x45, 0x4a, 0x4c, 0x42, 0x43):
-            depth += 1
-        elif op in (0x05, 0x0a, 0x0d, 0x52, 0x55):
-            depth -= 1
+        if marker is not None and op != 0x67:
+            raise ValueError('Argument marker must be followed by a call')
+        pops, pushes = 0, 0
+        if op in (0x41, 0x44, 0x45, 0x4a, 0x4c):
+            pushes = 1
+        elif op in (0x42, 0x43):
+            marker = (i['val'], op == 0x43)
+            pushes = 1
+        elif op in (0x05, 0x0a, 0x0d):
+            pops, pushes = 2, 1
+        elif op in (0x52, 0x55):
+            pops = 1
         elif op == 0x61:
-            if depth < 1:
-                raise ValueError('Getter stack underflow')
+            pops, pushes = 1, 1
         elif op == 0x67:
-            marker = previous[pc]
-            if marker['op'] not in (0x42, 0x43):
+            if marker is None:
                 raise ValueError('Call lacks an immediate argument marker')
-            depth -= marker['val'] + 1 - int(marker['op'] == 0x43)
+            pops, pushes = marker[0] + 1, int(marker[1])
+            marker = None
         elif op not in (0x53, 0x54):
             raise ValueError(f'Unmodeled hook opcode {op:#x}')
-        if depth < 0:
+        if len(stack) < pops:
             raise ValueError('Hook stack underflow')
-        peak = max(peak, depth)
+        stack = stack[:len(stack)-pops] + (None,) * pushes
+        peak = max(peak, entry_depth + len(stack))
         if op in (0x53, 0x54):
-            todo.append((i['target'], depth))
+            todo.append((i['target'], stack, marker))
         elif op == 0x55:
-            todo.extend(((i['target'], depth), (i['e'], depth)))
+            todo.extend(((i['target'], stack, marker), (i['e'], stack, marker)))
         else:
-            todo.append((i['e'], depth))
+            todo.append((i['e'], stack, marker))
     return peak
 
 
@@ -171,7 +188,7 @@ def build(movie):
     liveness = {}
     peaks = []
     for a, n in HOOK_RANGES:
-        peaks.append(hook_stack_bound(corrected[a:a+n]))
+        peaks.append(hook_stack_bound(corrected[a:a+n], HOOK_ENTRY_DEPTH))
         preceding = next(i for i in legacy.decode(code) if i['e'] == a)
         assert preceding['op'] == 0x55
         for slot in ((1, 2) if a == HOOK_RANGES[0][0] else (1,)):
@@ -198,7 +215,9 @@ def build(movie):
         'changed_byte_count': len(changed), 'changed_file_offsets': changed,
         'local_fixes': fixes, 'declared_exitFrame_locals': declared,
         'declared_stack_height': stack_limit,
-        'injected_hook_stack_peaks_above_entry': peaks,
+        'injected_hook_stack_entry_depth': HOOK_ENTRY_DEPTH,
+        'injected_hook_stack_peaks_above_entry': [p-HOOK_ENTRY_DEPTH for p in peaks],
+        'injected_hook_stack_absolute_peaks': peaks,
         'scratch_liveness_visited_instructions': liveness,
         'all_nonlocal_instructions_and_branches_unchanged': True,
         'camera_1506_unchanged': True, 'visual_clone_limit': 32,

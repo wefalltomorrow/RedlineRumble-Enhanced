@@ -187,6 +187,37 @@ class LocalIndexChecks(unittest.TestCase):
         with self.assertRaises(ValueError):
             v42.build(b'wrong movie')
 
+    def test_absolute_stack_peak_includes_existing_value(self):
+        for code in corrected_hooks():
+            self.assertEqual(v42.hook_stack_bound(code, entry_depth=1), 5)
+        self.assertEqual(v42.hook_stack_bound(b'', entry_depth=1), 1)
+        with self.assertRaises(ValueError):
+            v42.hook_stack_bound(b'', entry_depth=-1)
+
+    def test_binary_operators_require_two_values(self):
+        for opcode in (0x05, 0x0a, 0x0d):
+            # Net depth is zero, but the second operand is missing.
+            with self.assertRaises(ValueError):
+                v42.hook_stack_bound(v35.op(0x41, 1)+v35.op(opcode))
+
+    def test_call_requires_all_arguments_before_return_value(self):
+        code = v35.op(0x43, 1)+v35.op(0x67, 65)
+        with self.assertRaises(ValueError):
+            v42.hook_stack_bound(code)
+        # A hook must not borrow the caller's live value to mask underflow.
+        with self.assertRaises(ValueError):
+            v42.hook_stack_bound(code, entry_depth=1)
+
+    def test_jump_cannot_bypass_argument_marker(self):
+        b = v35.Seq()
+        b.emit(0x41, 1)
+        b.jmp(0x53, 'call')
+        b.emit(0x42, 0)
+        b.label('call')
+        b.emit(0x67, 65)
+        with self.assertRaises(ValueError):
+            v42.hook_stack_bound(b.resolved())
+
     def test_cfg_liveness_catches_conditional_path(self):
         b = v35.Seq()
         b.emit(0x41, 0)

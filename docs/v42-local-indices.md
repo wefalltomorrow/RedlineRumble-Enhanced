@@ -35,14 +35,15 @@ and loops. The same-direction hook occupies [0x580,0x5ef); the oncoming hook
 occupies [0xa56,0xa98). Local0 remains the original traffic index. Locals1/2
 are not read after the hook before a subsequent write or handler return.
 
-The hook stack checker reports a relative peak of4. Independent whole-handler
-analysis found one value at each hook entry, so the absolute hook peak is5;
-the full handler peaks at7, matching its unchanged declaration. Initialization
-retains18. The small hook checker alone does not prove whole-handler stack
-safety; the independent analysis and exact hash lock bound this conclusion
-to this candidate.
+The hook stack checker includes the audited entry depth of1, reporting an
+absolute peak of5 (4 above entry). It checks operand counts before applying
+results, tracks argument markers on each control-flow path, and rejects
+hooks that consume the caller's live stack value. Independent whole-handler
+analysis found a peak of7, matching the unchanged declaration. Initialization
+retains18. Entry depth is evidence from that audit of this hash-locked input,
+not inferred by the hook checker for arbitrary handlers.
 
-Eight source-only tests execute both hooks in a strict three-local model,
+Twelve source-only tests execute both hooks in a strict three-local model,
 reject the old out-of-range accesses, exercise cap crossing and repeated
 calls after saturation, and test liveness/stack validation failures. Five
 existing v41 tests, the v36 camera suite, six resource-auditor tests and
