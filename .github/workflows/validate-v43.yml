@@ -1,0 +1,20 @@
+name: Validate v43 directional reuse
+on:
+  push:
+    branches: [experiment/v43-directional-reuse]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  static:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check Python syntax
+        run: python -m compileall -q source experiments tests tools
+      - name: Execute generated hooks in synthetic VM
+        run: python experiments/test_rr_v43.py -v
+      - name: Preserve v42 comparison checks
+        run: python experiments/test_rr_v42.py -v

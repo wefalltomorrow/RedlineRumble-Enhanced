@@ -12,6 +12,8 @@ v40 failed with a Director `#shaderList` script error. v41 has no supplied gamep
 
 **v42 is a gameplay-unverified diagnostic based on v39.** It corrects eleven out-of-range traffic-local operands, using the original handler's direct indices. It retains the 32-clone cap so this correction can be tested separately before attempting continuous model reuse. See [v42 evidence and build instructions](docs/v42-local-indices.md).
 
+**v43 adds an isolated continuous-reuse diagnostic.** It uses two 16-model pools and world-space translation to keep updating rear traffic after saturation, retaining each clone's appearance and orientation. Automated bytecode tests pass; native gameplay and repeated-race cleanup remain unverified. See [v43 build and test instructions](docs/v43-directional-reuse.md). v42 remains available for the first comparison playtest.
+
 - Native 4K / widescreen fullscreen rendering (existing experimental patches)
 - 60 FPS timing modifications and graphics configuration
 - `C` switches between hood view and a third-person chase camera
