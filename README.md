@@ -6,7 +6,11 @@ The aim is to make the game more enjoyable on modern PCs without changing the or
 
 ## Current state
 
-**v36 is the latest player-tested working build.** This is a development baseline, not a published GitHub Release.
+**v39 is the latest build confirmed by the player to complete a full race, victory screen and return to menu.** Its visual rear traffic stops growing after 32 clones. v36 remains the camera baseline, but its unlimited clones were followed by a race crash. No stable GitHub Release has been published.
+
+v40 failed with a Director `#shaderList` script error. v41 has no supplied gameplay result. See the [continuation checkpoint](docs/continuation-2026-10-25.md) for reproduced hashes, evidence and unresolved questions.
+
+**v42 is a gameplay-unverified diagnostic based on v39.** It corrects eleven out-of-range traffic-local operands, using the original handler's direct indices. It retains the 32-clone cap so this correction can be tested separately before attempting continuous model reuse. See [v42 evidence and build instructions](docs/v42-local-indices.md).
 
 - Native 4K / widescreen fullscreen rendering (existing experimental patches)
 - 60 FPS timing modifications and graphics configuration
@@ -14,7 +18,7 @@ The aim is to make the game more enjoyable on modern PCs without changing the or
 - Hold `B` to look backwards; releasing restores the selected camera
 - Hood rear-view camera is positioned behind the car rather than inside its bodywork
 - Passed traffic remains visible behind the player using visual-only copies
-- Original forward traffic recycling thresholds, spacing logic and near-player collision logic are retained
+- Forward traffic recycling and gameplay logic are retained relative to the v28 development baseline; equivalence to the original 2003 difficulty has not been established
 
 **Still being investigated:** forward traffic pop-in, road/environment draw distance, and unusual audio in chase view. Runtime behaviour depends on the specific Director/Windows setup.
 

@@ -1,0 +1,18 @@
+name: Validate v42 local indices
+on:
+  push:
+    branches: [experiment/v42-local-indices]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  static:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check Python syntax
+        run: python -m compileall -q source experiments tests tools
+      - name: Test corrected clone hooks and validation guards
+        run: python experiments/test_rr_v42.py -v
