@@ -89,8 +89,9 @@ without updating its parent. Same-direction cars originate inside a group
 under parent401, while oncoming cars are directly under parent402. Copying
 local transforms across these parents is not a reliable world-space move.
 This is a separate defect from the out-of-range locals and the shader error.
-Future reuse should investigate compatible same-direction pools and
-world-space delta translation, after v42 receives gameplay results.
+v43 now investigates separate direction pools and world-space delta translation
+as an isolated diagnostic. v42 gameplay results are still needed for comparison;
+the user authorized continued implementation while those results are pending.
 
 Primary manuals:
 
@@ -110,8 +111,18 @@ untested experiment. Forward pop-in, road length, chase audio, repeated-race
 lifetime and patch-only release packaging remain open; no changes to these
 systems are justified by the current clone-reuse investigation alone.
 
-v42 passed eight source-only tests, the five existing v41 tests, v36 camera
+v42 now passes twelve source-only tests, the five existing v41 tests, v36 camera
 regression checks, six resource-auditor tests and Python syntax compilation.
 An independent binary review matched the eleven-byte correction exactly.
 All other 1,599 mapped resources and other packaged payloads are unchanged.
 No native gameplay test was performed; v42 is not a stability claim.
+
+## November 5: v43 engineering milestone
+
+The continuous-reuse diagnostic is implemented on `experiment/v43-directional-reuse`.
+See [its scope, reproducible build and validation limits](v43-directional-reuse.md).
+The two pools prevent cross-direction parent mismatches; world-space translation
+avoids source subgroup reparenting and all model property setters on reuse.
+Retained appearance/rotation/scale is an intentional diagnostic limitation.
+The 10,000-event synthetic bytecode test is automated evidence, not gameplay.
+Do not merge or label this stable before native full-race and second-race results.
