@@ -75,3 +75,67 @@ python -B -m unittest discover -s diagnostics -p "test_*.py" -v
 The packager reads a fixed source allowlist from Git, ignores uncommitted edits,
 records the resolved commit and uses fixed ZIP metadata without compression.
 The same commit produces identical kit bytes. It refuses an existing ZIP path.
+
+## Record a native playtest
+
+For the prepared comparison layout, double-click Record_v42.cmd or
+Record_v43.cmd in the kit. This requires Python on PATH and expects a sibling
+RR_Diagnostic_Comparison folder. A uniquely named session is created under
+the sibling RR_Playtest_Sessions folder. Wait for READY, then launch the game
+using its existing launcher. The recording console stays open to show results.
+
+The kit also includes a Windows PowerShell 5.1 observer. It runs without admin
+access, leaves the original launcher intact, and does not launch or stop the
+game, attach a debugger, change registry/WER settings, or collect crash dumps.
+It supersedes the archived v36/v37 collector for basic process evidence; it
+does not replace that collector's optional full-dump capability.
+
+From the extracted kit, start a new recording:
+
+~~~powershell
+python -B record_session.py --installation "C:\Games\RR-Comparison" --build v42 --out "C:\RR-Sessions\v42-first"
+~~~
+
+When READY appears, launch the existing .cmd in the selected v42 folder. The
+recorder waits up to 180 seconds for a **new** process at that exact executable
+path. Already running instances are ignored. Keep the recorder open while you
+play both races and exit the game normally. Repeat with --build v43 and a new
+session folder. Optional --wait-seconds and --run-seconds set the wait and run
+limits (defaults: 180 and 7200 seconds). A recording timeout leaves the game running.
+
+Run the same command with --preflight and without --out for file checks only.
+The baseline runtime is hash-checked before recording. Extra files, including
+graphics wrappers installed by the existing launcher, are recorded by name,
+size and hash; their presence is not an authenticity or compatibility approval.
+
+To annotate a running session from another terminal:
+
+~~~powershell
+python -B record_session.py --mark "C:\RR-Sessions\v42-first" --label race1_finished --note "Victory screen appeared; race/car: ..."
+python -B record_session.py --stop "C:\RR-Sessions\v42-first"
+~~~
+
+Markers include race1_started, race1_finished, menu_returned, race2_started,
+race2_finished, rear_traffic_checked, cameras_checked, script_error and note.
+They are explicitly user-reported. Markers added after finalization stay in
+the markers folder; RESULT.json contains the snapshot at finalization.
+The stop command ends observation only. You can instead keep observations in
+the comparison installation's TEST_RESULTS.txt.
+
+Each new session contains SESSION.json (build and file hashes), observer.jsonl
+(flushed process/memory/module observations), observer.stderr.txt, RESULT.json,
+and MemoryUsage.csv when samples exist. Files changed/added/missing during the
+session are reported. Process module paths are recorded without reading process
+memory. Everything stays local; nothing is uploaded by the recorder.
+
+Windows Application events 1000/1001/1002 are queried only within the observation
+window and retained only when structured data contains the exact executable
+path. Where a process ID exists, the summary rejects a different ID. Events
+without IDs are labeled weaker path/time matches. Missing path data, delayed
+events, access failures and the 200-event query cap can prevent capture; a query
+status is included. No matching event does not mean no crash occurred.
+
+A zero process exit code is not a passed race or proof that no Director script
+error occurred. Memory growth alone does not prove a leak. Gameplay remains
+unverified until the actual observations establish the result. If recording
+is interrupted, keep the JSONL and the RECORDING_INCOMPLETE marker for diagnosis.

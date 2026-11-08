@@ -1,7 +1,7 @@
 name: Validate diagnostic comparison kit
 on:
   push:
-    branches: [tooling/diagnostic-comparison-kit]
+    branches: [tooling/diagnostic-comparison-kit, tooling/native-session-recorder]
   pull_request:
   workflow_dispatch:
 jobs:

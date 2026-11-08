@@ -40,6 +40,11 @@ No downloadable game executable is included in this repository. Macromedia Direc
 
 See [building instructions](docs/building.md) to reproduce the development build locally. The [source-only diagnostic comparison kit](diagnostics/README.md) installs the exact v42/v43 payloads from user-owned historical ZIPs, checking every input and output file. A stable GitHub Release has **not** been published.
 
+The kit also includes a native-session recorder for manually launched v42/v43
+playtests: process exits, memory samples, loaded module paths and matching
+Windows events are saved locally. It does not change game behavior or system
+dump settings, and never treats an exit code as proof of a completed race.
+
 ## Controls
 
 | Key | Action |
